@@ -79,4 +79,4 @@ Provide any references, research articles, or documentation that informed the pr
 
 ## :trophy: Accolades
 
-![certificate to us](./public/certificate.png)
+![certificate to us](certificate.png)
