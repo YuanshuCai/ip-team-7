@@ -1,0 +1,35 @@
+@import "./partials/variables";
+@import "./partials/fonts";
+@import "./partials/mixins";
+body {
+  background: $white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  //if we want to have a aligned padding for all elements
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  @include tablet {
+    max-width: 48rem;
+    padding: 0 2.25rem;
+  }
+
+  @include desktop {
+    max-width: 80rem;
+  }
+}
