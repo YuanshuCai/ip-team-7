@@ -1,0 +1,74 @@
+$card-border-color: #ddd;
+$card-background-color: #fff;
+$checkbox-border-color: #ccc;
+$text-color-light: #777;
+$text-color-dark: #333;
+$price-background-color: #f7f7f8;
+
+.category-card {
+  border: 1px solid $card-border-color;
+  border-radius: 8px;
+  background-color: $card-background-color;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+
+  &__content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  &__checkbox {
+    width: 16px;
+    height: 16px;
+    border: 1px solid $checkbox-border-color;
+    background-color: $card-background-color;
+    margin-right: 8px;
+    border-radius: 2px;
+  }
+
+  &__title {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: baseline;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  &__icon {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+    vertical-align: middle;
+  }
+
+  &__channels {
+    font-size: 14px;
+    margin: 0;
+    color: $text-color-light;
+  }
+
+  &__price {
+    font-size: 14px;
+    color: $text-color-dark;
+    text-align: right;
+    background-color: $price-background-color;
+    padding: 8px 16px;
+    border-radius: 0 0 8px 8px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

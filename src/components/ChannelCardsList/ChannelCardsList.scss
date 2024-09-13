@@ -1,0 +1,14 @@
+.channel-card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+    padding: 16px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+  
+  .channel-card-list__row {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 16px; 
+  }
