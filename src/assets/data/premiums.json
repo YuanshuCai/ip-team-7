@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Apple TV+",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/5x5Fs5EIXym9UJohvrhrwd/c6c69c16d731461f37de2cec8e306606/apple-tv-logo.png?w=90&q=80&fm=webp",
+        "description": "Enjoy award-winning Apple Originals with something new every week, Apple TV+ brings you series and films, from hit dramas to star-studded comedies, groundbreaking documentaries to kids favourites.",
+        "price": ""
+    },
+    {
+        "id": 2,
+        "title": "Netflix",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/6DCrCDfDIWRi7lv5a00CHb/69a2a29bcf812ecea5599ace0a578780/Netflix.svg?fm=png",
+        "description": "With Netflix, you can enjoy unlimited viewing – without ever having to watch a single commercial. There's always something new to discover, and more TV shows and movies are added each month.",
+        "price": ""
+    },
+    {
+        "id": 3,
+        "title": "Disney+ Premium",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/5PSpINB8W3CY9RKm4Hsz1G/bf24cedc360397230cfec21df1d9cbf0/disney_-logo-black-2.png?w=168&q=80&fm=webp",
+        "description": "Find your favourite movies, series and special content from Disney, Pixar, Marvel, Star Wars, National Geographic, and Star, from classics to new releases. To avoid being billed by another provider and TELUS for the same service, we recommend managing your Disney+ subscription before continuing.",
+        "price": ""
+    },
+    {
+        "id": 4,
+        "title": "Crave",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/6Ra2Wo2kJqCf3EoAb2lPef/62ffd32e46da962d04b11a609c5b2e5d/Crave1.svg?fm=png",
+        "description": "Enjoy exclusive access to the most captivating movies, must-see HBO and Showtime series, and groundbreaking Crave Originals.",
+        "price": ""
+    },
+    {
+        "id": 5,
+        "title": "HBO On Demand",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/53G7TH1GSIC2SGW0I602yC/aca9a608fd2dd6a6bb45b21dab1232e6/HBO_Black.png?w=90&q=80&fm=webp",
+        "description": "HBO Canada is home to the most talked-about premium programs on television – from new and ground-breaking series, films, and documentaries to sports and live entertainment specials – all uncut and commercial-free.",
+        "price": ""
+    },
+    {
+        "id": 6,
+        "title": "Netflix",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/6DCrCDfDIWRi7lv5a00CHb/69a2a29bcf812ecea5599ace0a578780/Netflix.svg?fm=png",
+        "description": "With Netflix, you can enjoy unlimited viewing – without ever having to watch a single commercial. There's always something new to discover, and more TV shows and movies are added each month.",
+        "price": ""
+    }
+]
