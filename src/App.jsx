@@ -32,7 +32,7 @@ function App() {
     return total + (premium ? parseInt(premium.price) : 0);
   }, 0);
 
-  const fullPrice = categoryPrice + premiumPrice;
+  const currentPrice = categoryPrice + premiumPrice;
 
   return (
     <>
@@ -62,9 +62,9 @@ function App() {
         </Routes>
         <Price
           fullPrice={80}
-          currentPrice={fullPrice}
+          currentPrice={currentPrice}
           amountThemePacks={selectedCategories?.length}
-          amounChannels={selectedChannels?.length}
+          amountChannels={selectedChannels?.length}
           amountPremiums={selectedPremiums?.length}
         />
         <Footer />
