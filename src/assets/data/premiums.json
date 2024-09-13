@@ -37,8 +37,8 @@
     {
         "id": 6,
         "title": "Netflix",
-        "image": "",
-        "description": "",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/6DCrCDfDIWRi7lv5a00CHb/69a2a29bcf812ecea5599ace0a578780/Netflix.svg?fm=png",
+        "description": "With Netflix, you can enjoy unlimited viewing – without ever having to watch a single commercial. There's always something new to discover, and more TV shows and movies are added each month.",
         "price": ""
     }
 ]
