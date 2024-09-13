@@ -1,13 +1,13 @@
 import React from 'react'
 import PremiumCardsList from '../../components/PremiumCardsList/PremiumCardsList'
-import Price from '../../components/Price/Price'
 import './PremiumPage.scss';
+import SearchBar from '../../components/SearchBar/SearchBar';
 
 function PremiumPage() {
   return (
     <div className='premium-page'>
+      <SearchBar/>
         <PremiumCardsList />
-        <Price />
     </div>
   )
 }
