@@ -1,17 +1,17 @@
 import React from "react";
 import CategoryCardItem from "../CategoryCardItem/CategoryCardItem.jsx";
-import categories from "../../assets/data/channel_category.json";
+import packs from "../../assets/data/packs.json";
 import channels from "../../assets/data/channels.json";
 import "./CategoryCardsList.scss";
 
-const cardData = categories.map((category) => {
-  const icons = category.channels.map((channelId) => {
+const cardData = packs.map((pack) => {
+  const icons = pack.channels.map((channelId) => {
     const channel = channels.find((ch) => ch.id === channelId);
     return channel ? channel.image : "";
   });
 
   return {
-    title: category.category_name,
+    title: pack.title,
     icons: icons,
   };
 });
