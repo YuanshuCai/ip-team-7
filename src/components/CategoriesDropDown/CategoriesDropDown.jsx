@@ -6,6 +6,10 @@ const CategoriesDropDown = ({ categories, setCategoryId }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
   const dropdownRef = useRef(null);
+  const updatedCategories = [
+    { category_id: null, category_name: "Choose the category" },
+    ...categories,
+  ];
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -35,9 +39,9 @@ const CategoriesDropDown = ({ categories, setCategoryId }) => {
       </button>
       {isOpen && (
         <ul className="dropdown__list">
-          {categories.map((category) => (
+          {updatedCategories.map((category) => (
             <li
-              key={category.category_id}
+              key={category.category_id || 0}
               className="dropdown__item"
               onClick={() => handleOptionClick(category)}
             >
