@@ -3,11 +3,14 @@ import PremiumCardsList from "../../components/PremiumCardsList/PremiumCardsList
 import Heading from "../../components/Heading/Heading";
 import "./PremiumPage.scss";
 
-function PremiumPage() {
+function PremiumPage({ selectedPremiums, setSelectedPremiums }) {
   return (
     <div className="premium-page">
       <Heading text="premiums" />
-      <PremiumCardsList />
+      <PremiumCardsList
+        selectedPremiums={selectedPremiums}
+        setSelectedPremiums={setSelectedPremiums}
+      />
     </div>
   );
 }
