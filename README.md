@@ -30,8 +30,8 @@ Welcome to Telus Build-Your-Own+, an innovative project developed by our six-mem
 - **[Kristina Tripak](https://www.linkedin.com/in/kristina-tripak/)** - UX Designer/Developer
 - **[Stephen Mustapha](https://www.linkedin.com/in/stephen-mustapha-ng/)** - Developer
 - **[Sameer Singh](https://www.linkedin.com/in/sameersingh22/)** - Developer
-- **[Zanab Shah](https://www.linkedin.com/in/zanab-jafry-shah/)** - Developer/Data Scientist
-- **[Sophia Chan](https://www.linkedin.com/in/sophia-g-chan/)** - Developer/Data Scientist
+- **[Zanab Shah](https://www.linkedin.com/in/zanab-jafry-shah/)** - Developer
+- **[Sophia Chan](https://www.linkedin.com/in/sophia-g-chan/)** - Developer
 
 ## :thinking: Problem Space
 
