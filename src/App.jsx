@@ -34,6 +34,7 @@ function App() {
   }, 0);
 
   const currentPrice = categoryPrice + premiumPrice;
+  
   return (
     <>
       <BrowserRouter>
@@ -63,7 +64,7 @@ function App() {
           />
         </Routes>
         <Price
-          fullPrice={80}
+          fullPrice={Math.round(currentPrice * 1.2)}
           currentPrice={currentPrice}
           amountThemePacks={selectedCategories?.length}
           amountChannels={selectedChannels?.length}
