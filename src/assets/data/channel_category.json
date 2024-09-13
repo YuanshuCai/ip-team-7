@@ -15,8 +15,8 @@
         "channels":[1,2,3]
     },
     {
-        "category_id":1,
-        "category_name":"Family & Kid",
-        "channels":[8]
+        "category_id":4,
+        "category_name":"Family Time",
+        "channels":[9,10,11,12]
     }
 ]

@@ -1,273 +1,244 @@
 [
     {
-      "id": 1,
-      "title": "A&E",
-      "image": "https://images.ctfassets.net/evnrpfa1vdk4/577c86WR8suScCo2SMeKg2/91c9b750feed352f542bbf1c46dbbbb0/AE.svg?fm=png",
-      "category": [
-        1,
-        3
-      ],
-      "description": "A&E offers the hottest programs from hit real-life series to critically-acclaimed original movies, dramatic series and some of the most successful justice shows on television.",
-      "price": ""
+        "id":1,
+        "title":"A&E",
+        "image":"https://images.ctfassets.net/evnrpfa1vdk4/577c86WR8suScCo2SMeKg2/91c9b750feed352f542bbf1c46dbbbb0/AE.svg?fm=png",
+        "category":[1,3],
+        "description":"A&E offers the hottest programs from hit real-life series to critically-acclaimed original movies, dramatic series and some of the most successful justice shows on television.",
+        "price":""
     },
     {
-      "id": 2,
-      "title": "AMC",
-      "image": "https://images.ctfassets.net/evnrpfa1vdk4/68ltlIpks0yGskeeKy4W8W/b876e156f6f8ec09af319a5cf449dc27/amc.svg?fm=png",
-      "category": [
-        1,
-        3
-      ],
-      "description": "AMC brings to its audience something deeper, something richer, something more. AMC's original drama series include Mad Men, Breaking Bad and The Walking Dead. AMC is available across all platforms, including on-air, online and on demand.",
-      "price": ""
+        "id":2,
+        "title":"AMC",
+        "image":"https://images.ctfassets.net/evnrpfa1vdk4/68ltlIpks0yGskeeKy4W8W/b876e156f6f8ec09af319a5cf449dc27/amc.svg?fm=png",
+        "category":[1,3],
+        "description":"AMC brings to its audience something deeper, something richer, something more. AMC's original drama series include Mad Men, Breaking Bad and The Walking Dead. AMC is available across all platforms, including on-air, online and on demand.",
+        "price":""
     },
     {
-      "id": 3,
-      "title": "CTV Drama Channel",
-      "image": "https://images.ctfassets.net/evnrpfa1vdk4/1bHtXaCsPa6qekmOgiSGeu/dc339e21fc5a4bba0f2cc849f9fc1189/CTV_Drama_Channel_2019.svg?fm=png",
-      "category": [
-        1,
-        3
-      ],
-      "description": "Get into addictive stories, from cutting-edge series to crowd-pleasing whodunits and riveting unscripted moments. Get into addictive stories, from cutting-edge series to crowd-pleasing whodunits and riveting unscripted moments.",
-      "price": ""
+        "id":3,
+        "title":"CTV Drama Channel",
+        "image":"https://images.ctfassets.net/evnrpfa1vdk4/1bHtXaCsPa6qekmOgiSGeu/dc339e21fc5a4bba0f2cc849f9fc1189/CTV_Drama_Channel_2019.svg?fm=png",
+        "category":[1,3],
+        "description":"Get into addictive stories, from cutting-edge series to crowd-pleasing whodunits and riveting unscripted moments. Get into addictive stories, from cutting-edge series to crowd-pleasing whodunits and riveting unscripted moments.",
+        "price":""
     },
     {
-      "id": 4,
-      "title": "Sportsnet 360",
-      "image": "https://images.ctfassets.net/evnrpfa1vdk4/kGnUynEOI0uaCmw0E2Gyy/55ba24e667bab29dc671aa19bdb311a5/SN_360_logo.svg?fm=png",
-      "category": [
-        2
-      ],
-      "description": "Sportsnet is Fuelled By Fans. We connect Canadian sports fans to their favourite teams, delivering world class sports programming on a local, regional and national level through four regional channels (Sportsnet East, Ontario, West and Pacific) and Sportsnet ONE, our nationally-distributed channel.",
-      "price": ""
+        "id": 4,
+        "title": "Sportsnet 360",
+        "image": "https://www.telus.com/channel-selection/guide/optik/theme-packs/sports-outdoors/?offer=sportsnet-and-beyond-optik",
+        "category": [2],
+        "description": "Sportsnet is Fuelled By Fans. We connect Canadian sports fans to their favourite teams, delivering world class sports programming on a local, regional and national level through four regional channels (Sportsnet East, Ontario, West and Pacific) and Sportsnet ONE, our nationally-distributed channel.",
+        "price": ""
     },
     {
-      "id": 5,
-      "title": "NFL Network",
-      "image": "https://images.ctfassets.net/evnrpfa1vdk4/3EmOTozXxCMicImWaK2gKC/104adb925a1f3d5a0f85fc516dc71dea/NFL-Network-logo.png?w=90&q=80&fm=webp",
-      "category": [
-        2
-      ],
-      "description": "NFL Network (NFLN) is an American television specialty channel dedicated to American football, owned and operated by the National Football League (NFL). Fans turn to NFL Network to receive information and insights straight from team headquarters, league offices and wherever else the NFL is making news.",
-      "price": ""
+        "id": 5,
+        "title": "NFL Network",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/3EmOTozXxCMicImWaK2gKC/104adb925a1f3d5a0f85fc516dc71dea/NFL-Network-logo.png?w=90&q=80&fm=webp",
+        "category": [2],
+        "description": "NFL Network (NFLN) is an American television specialty channel dedicated to American football, owned and operated by the National Football League (NFL). Fans turn to NFL Network to receive information and insights straight from team headquarters, league offices and wherever else the NFL is making news.",
+        "price": ""
     },
     {
-      "id": 6,
-      "title": "Golf Channel",
-      "image": "https://images.ctfassets.net/evnrpfa1vdk4/4oZoS0NPlKkWAwS28iKiCa/2a2924f1557b6a61e9c1587ad9a31d4a/Golf_Channel_2014.svg?fm=png",
-      "category": [
-        2
-      ],
-      "description": "GOLF CHANNEL is the exclusive cable television home for the PGA Tour. In addition to being the leader in golf tournament coverage, GOLF CHANNEL is the home of innovative, insightful and entertaining programming, including news, instruction and original specials and series.",
-      "price": ""
+        "id": 6,
+        "title": "Golf Channel",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/4oZoS0NPlKkWAwS28iKiCa/2a2924f1557b6a61e9c1587ad9a31d4a/Golf_Channel_2014.svg?fm=png",
+        "category": [2],
+        "description": "GOLF CHANNEL is the exclusive cable television home for the PGA Tour. In addition to being the leader in golf tournament coverage, GOLF CHANNEL is the home of innovative, insightful and entertaining programming, including news, instruction and original specials and series.",
+        "price": ""
     },
     {
-      "id": 7,
-      "title": "Fox Sports Racing",
-      "image": "https://images.ctfassets.net/evnrpfa1vdk4/z4Jq7w2n71lPC7wgA8tID/7ddf9b028c1201797b6a5ae9139663df/FOX_SPORTS_RACING.svg?fm=png",
-      "category": [
-        2
-      ],
-      "description": "FOX Sports Racing delivers unparalleled access to the races, drivers, cars, bikes and lifestyles that race fans crave. Get Fox Sport Racing on TELUS Optik TV today.",
-      "price": ""
+        "id": 7,
+        "title": "Fox Sports Racing",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/z4Jq7w2n71lPC7wgA8tID/7ddf9b028c1201797b6a5ae9139663df/FOX_SPORTS_RACING.svg?fm=png",
+        "category": [2],
+        "description": "FOX Sports Racing delivers unparalleled access to the races, drivers, cars, bikes and lifestyles that race fans crave. Get Fox Sport Racing on TELUS Optik TV today.",
+        "price": ""
     },
     {
-      "id": 8,
-      "title": "NBA TV Canada",
-      "image": "https://images.ctfassets.net/evnrpfa1vdk4/57ouNusq2Bpb0xT71nL0bj/af2ce6183a4bec5f4e292afded48b7fb/NBA_TV_Canada.svg?fm=png",
-      "category": [
-        2
-      ],
-      "description": "",
-      "price": ""
+        "id": 8,
+        "title": "NBA TV Canada",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/57ouNusq2Bpb0xT71nL0bj/af2ce6183a4bec5f4e292afded48b7fb/NBA_TV_Canada.svg?fm=png",
+        "category": [2],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 9,
-      "title": "Disney Time",
-      "image": "https://images.ctfassets.net/evnrpfa1vdk4/5wbeJd7WwwcqSgAogOUGWo/1c215939e37494fa6d791bbe2fd3380f/DisneyChannel_Hero_Logo.png?w=90&q=80&fm=webp",
-      "category": [
-        3,
-        4
-      ],
-      "description": "Disney Channel is a 24-hour kid-driven, family-inclusive television network that taps into the world of kids and families through imagination, laughter and optimism with popular TV shows and larger than life original movies.",
-      "price": ""
+        "id": 9,
+        "title": "Disney Time",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/5wbeJd7WwwcqSgAogOUGWo/1c215939e37494fa6d791bbe2fd3380f/DisneyChannel_Hero_Logo.png?w=90&q=80&fm=webp",
+        "category": [3,4],
+        "description": "Disney Channel is a 24-hour kid-driven, family-inclusive television network that taps into the world of kids and families through imagination, laughter and optimism with popular TV shows and larger than life original movies.",
+        "price": ""
     },
     {
-      "id": 10,
-      "title": "Disney Junior",
-      "image": "https://images.ctfassets.net/evnrpfa1vdk4/xOibrvkBGgmwaOw8iUywk/1c26608a9178eae4cecab0bc46489bc2/disney-jr-logo.png?w=90&q=80&fm=webp",
-      "category": [
-        3,
-        4
-      ],
-      "description": "Disney Junior offers the best and most engaging programming for younger children with magical, musical and heartfelt stories. This is a 24-hour a day, commercial-free network with development-based programming dedicated to little ones.",
-      "price": ""
+        "id": 10,
+        "title": "Disney Junior",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/xOibrvkBGgmwaOw8iUywk/1c26608a9178eae4cecab0bc46489bc2/disney-jr-logo.png?w=90&q=80&fm=webp",
+        "category": [3,4],
+        "description": "Disney Junior offers the best and most engaging programming for younger children with magical, musical and heartfelt stories. This is a 24-hour a day, commercial-free network with development-based programming dedicated to little ones.",
+        "price": ""
     },
     {
-      "id": 11,
-      "title": "Cartoon Network",
-      "image": "https://images.ctfassets.net/evnrpfa1vdk4/6CtwpkowlOTdHtNEW5GR9h/0e4485d4d6bfa583b7901789d86da042/CN_HERO_FULLCOLOR_3D_BLK_2000x1500.png?w=90&q=80&fm=webp",
-      "category": [
-        3,
-        4
-      ],
-      "description": "Cartoon Network is the funny and unexpected brand that stands out from the pack in a way in which kids can relate. Our cartoon-crammed network delivers hilarious comedy, unexpected surprises and edge-of-your-seat action through the best in animated series and hit blockbuster movies. Cartoon Network is where anything is possible, where fun and adventure lives--all day, every day.",
-      "price": ""
+        "id": 11,
+        "title": "Cartoon Network",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/6CtwpkowlOTdHtNEW5GR9h/0e4485d4d6bfa583b7901789d86da042/CN_HERO_FULLCOLOR_3D_BLK_2000x1500.png?w=90&q=80&fm=webp",
+        "category": [3,4],
+        "description": "Cartoon Network is the funny and unexpected brand that stands out from the pack in a way in which kids can relate. Our cartoon-crammed network delivers hilarious comedy, unexpected surprises and edge-of-your-seat action through the best in animated series and hit blockbuster movies. Cartoon Network is where anything is possible, where fun and adventure lives--all day, every day.",
+        "price": ""
     },
     {
-      "id": 12,
-      "title": "BabyTV",
-      "image": "https://images.ctfassets.net/evnrpfa1vdk4/2Z1isc9GRO90WQOpzjKYgX/87f35d6c7cced62f6bc28bbb7e56c4f4/Logo-BabyTV-2018__2018_.png?w=90&q=80&fm=webp",
-      "category": [
-        3,
-        4
-      ],
-      "description": "BabyTV is dedicated to babies, toddlers and parents. Developed by educational experts, BabyTV programming offers an inspiring journey filled with numbers, animals, colours, music and more. Plus, it's completely commercial-free!",
-      "price": ""
+        "id": 12,
+        "title": "BabyTV",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/2Z1isc9GRO90WQOpzjKYgX/87f35d6c7cced62f6bc28bbb7e56c4f4/Logo-BabyTV-2018__2018_.png?w=90&q=80&fm=webp",
+        "category": [3,4],
+        "description": "BabyTV is dedicated to babies, toddlers and parents. Developed by educational experts, BabyTV programming offers an inspiring journey filled with numbers, animals, colours, music and more. Plus, it's completely commercial-free!",
+        "price": ""
     },
     {
-      "id": 13,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 13,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 14,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 14,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 15,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 15,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 16,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 16,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 17,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 17,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 18,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 18,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 19,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 19,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 20,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 20,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 21,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 21,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 22,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 22,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 23,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 23,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 24,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 24,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 25,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 25,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 26,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 26,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 27,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 27,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 28,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 28,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 29,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 29,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     },
     {
-      "id": 30,
-      "title": "AMC",
-      "image": "",
-      "category": [],
-      "description": "",
-      "price": ""
+        "id": 30,
+        "title": "AMC",
+        "image": "",
+        "category": [],
+        "description": "",
+        "price": ""
     }
-  ]
+]
+    
+

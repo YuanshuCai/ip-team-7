@@ -3,21 +3,21 @@
         "id": 1,
         "title": "Killing Eve",
         "image": "https://images.ctfassets.net/evnrpfa1vdk4/1MziVmPCX8x5MsiR8z9uDh/3c50895e946107ed5920bc61893da29b/Killing_Eve_Poster.jpg?w=90&q=80&fm=webp",
-        "channel": [2],
+        "channel": [1],
         "description": "A British thriller drama about a bored MI5 agent tracking down an international assassin."
     },
     {
         "id": 2,
         "title": "First 48",
         "image": "https://images.ctfassets.net/evnrpfa1vdk4/42W6WOMUn8YQeZhA4mlLlr/664005b6bb5f6c0c7f43ecaba15607d8/A_E-02.jpg?w=90&q=80&fm=webp",
-        "channel": [2],
+        "channel": [1],
         "description": "A documentary series that follows detectives during the first 48 hours of a homicide investigation."
     },
     {
         "id": 3,
-        "title": "Stranger Things",
-        "image": "https://images.ctfassets.net/evnrpfa1vdk4/6H8GzmRZisxU4ZQn5CxBUH/123456789abc/stranger_things.jpg",
-        "channel": [3],
+        "title": "The Walking Dead",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/4ce6ZnIYlgll3OGvfKQECg/6622cb3a38c58411ccfcd70a901d377c/AMC-01.jpg?w=90&q=80&fm=webp",
+        "channel": [1],
         "description": "A group of kids in a small town uncover a government conspiracy involving supernatural forces."
     },
     {

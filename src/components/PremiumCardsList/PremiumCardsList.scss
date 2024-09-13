@@ -1,0 +1,28 @@
+.premium-cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2rem;
+    
+    .card-placeholder {
+        flex: 1 0 30%;
+
+      height: 129px;
+      background-color: lightgrey;
+      position: relative;
+      border: 2px solid transparent;
+      
+
+  
+      .checkmark {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        font-size: 20px;
+        color: #4caf50; 
+      }
+    }
+  }
+  
+  
