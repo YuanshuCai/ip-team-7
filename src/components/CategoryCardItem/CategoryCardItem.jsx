@@ -26,7 +26,7 @@ const CategoryCardItem = ({
         </div>
         <div className="category-card__icons-channels">
           <div className="category-card__icons">
-            {icons.map((icon, index) => (
+            {icons.slice(0, 3).map((icon, index) => (
               <img
                 key={index}
                 src={icon}
@@ -34,11 +34,10 @@ const CategoryCardItem = ({
                 className="category-card__icon"
               />
             ))}
+            {icons.length > 3 && (
+              <p className="category-card__more">+{icons.length - 3} more</p>
+            )}
           </div>
-          <p className="category-card__channels">
-            {icons.length <= 6 ? icons.length : `${icons.length - 6} + `}{" "}
-            channels
-          </p>
         </div>
       </div>
       <div className="category-card__price">{price}$/mon</div>

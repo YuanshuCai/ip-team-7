@@ -1,26 +1,30 @@
+@import "../../styles/global.scss";
+
 .nav-bar {
-    margin: 0% 13%;
-    
-    &__links {
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
+  margin: 0% 13%;
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 1rem;
+    @include tablet {
+      flex-direction: row;
     }
+  }
 
-    &__link {
-        padding: 10px;
-        position: relative;
-        text-decoration: none;
-        color: grey;
+  &__link {
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    color: grey;
 
-        &--active {
-            border-bottom: solid 2px purple;
-        }
+    &--active {
+      border-bottom: solid 2px purple;
     }
+  }
 
-
-
-    &::after {
-        border-bottom: solid 2px purple;
-    }
+  &::after {
+    border-bottom: solid 2px purple;
+  }
 }

@@ -24,9 +24,7 @@ const cardData = categories.map((category) => {
   };
 });
 
-const CategoryCardList = () => {
-  const [selectedCategories, setSelectedCategories] = useState([]);
-
+const CategoryCardList = ({ selectedCategories, setSelectedCategories }) => {
   const handleCheckboxChange = (categoryId) => {
     setSelectedCategories((prevSelected) => {
       if (prevSelected.includes(categoryId)) {

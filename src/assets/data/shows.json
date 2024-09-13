@@ -1,141 +1,127 @@
 [
     {
-        "id": 1,
-        "title": "Killing Eve",
-        "image": "https://images.ctfassets.net/evnrpfa1vdk4/1MziVmPCX8x5MsiR8z9uDh/3c50895e946107ed5920bc61893da29b/Killing_Eve_Poster.jpg?w=90&q=80&fm=webp",
-        "channel": [1],
-        "description": "A British thriller drama about a bored MI5 agent tracking down an international assassin."
-    },
-    {
         "id": 2,
         "title": "First 48",
         "image": "https://images.ctfassets.net/evnrpfa1vdk4/42W6WOMUn8YQeZhA4mlLlr/664005b6bb5f6c0c7f43ecaba15607d8/A_E-02.jpg?w=90&q=80&fm=webp",
-        "channel": [1],
+        "channel": [1,18],
         "description": "A documentary series that follows detectives during the first 48 hours of a homicide investigation."
     },
     {
         "id": 3,
         "title": "The Walking Dead",
         "image": "https://images.ctfassets.net/evnrpfa1vdk4/4ce6ZnIYlgll3OGvfKQECg/6622cb3a38c58411ccfcd70a901d377c/AMC-01.jpg?w=90&q=80&fm=webp",
-        "channel": [1],
+        "channel": [2],
         "description": "A group of kids in a small town uncover a government conspiracy involving supernatural forces."
     },
     {
         "id": 4,
         "title": "Game of Thrones",
         "image": "",
-        "channel": [4],
+        "channel": [28],
         "description": "Epic fantasy drama where noble families vie for control of the Seven Kingdoms of Westeros."
     },
     {
         "id": 5,
         "title": "The Office",
-        "image": "",
-        "channel": [5],
+        "image": "https://m.media-amazon.com/images/I/71WoB4pMr+L.jpg",
+        "channel": [2,19],
         "description": "A mockumentary that depicts the everyday lives of office employees in Scranton, Pennsylvania."
     },
     {
         "id": 6,
         "title": "Breaking Bad",
-        "image": "",
-        "channel": [6],
+        "image": "https://i.ebayimg.com/images/g/eKEAAOxyOMdS4U2W/s-l1600.webp",
+        "channel": [30],
         "description": "A high school chemistry teacher turned methamphetamine producer tries to secure his family's future."
     },
     {
         "id": 7,
         "title": "Friends",
-        "image": "",
-        "channel": [7],
+        "image": "https://resizing.flixster.com/bqs9DmhNFxJMI9iSQCLX8c0Xgow=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7892602_b_v7_aq.jpg",
+        "channel": [3,19],
         "description": "A group of friends in New York City experience life, love, and comedy together."
     },
     {
         "id": 8,
         "title": "Narcos",
-        "image": "",
-        "channel": [8],
+        "image": "https://resizing.flixster.com/USLPHXwTrs0W7_17nHpSwaStQhc=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11993086_b_v12_af.jpg",
+        "channel": [1],
         "description": "A dramatized look at the history of drug cartels in Colombia and the rise of the cocaine trade."
     },
     {
         "id": 9,
         "title": "The Crown",
-        "image": "",
-        "channel": [9],
+        "image": "https://resizing.flixster.com/uAbTXKXJtS9BehnvoWOQDqIt9uQ=/206x305/v2/https://resizing.flixster.com/aX9Yz5sNV2WpBA5CoENzIl9RbTM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vUlRUVjI2NTU1OS53ZWJw",
+        "channel": [20],
         "description": "The life of Queen Elizabeth II and the events that shaped the second half of the 20th century."
     },
     {
         "id": 10,
         "title": "Westworld",
-        "image": "",
-        "channel": [10],
+        "image": "https://resizing.flixster.com/bSB6psSl6E77BiR5BkHNPfgIEUE=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p13108002_b_v13_am.jpg",
+        "channel": [1,30],
         "description": "A futuristic theme park allows guests to live out their fantasies with artificial beings, until things go wrong."
-    },
-    {
-        "id": 11,
-        "title": "The Mandalorian",
-        "image": "",
-        "channel": [11],
-        "description": "A lone bounty hunter in the outer reaches of the galaxy becomes a guardian to a mysterious child."
     },
     {
         "id": 12,
         "title": "Black Mirror",
-        "image": "",
-        "channel": [12],
+        "image": "https://resizing.flixster.com/CnZ4s1-Rgh3_YiGSuXMtzufKaHo=/206x305/v2/https://resizing.flixster.com/_vHumvQVYNPOLa6d_ZL_br7dMl8=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMWU3MDMxMTQtOTEwZS00ODgyLTkxMDktZTM5MGJmNmUwOGM3LmpwZw==",
+        "channel": [2,3],
         "description": "An anthology series that explores the dark side of technology and its impact on modern society."
-    },
-    {
+      },
+      {
         "id": 13,
         "title": "The Witcher",
-        "image": "",
-        "channel": [13],
+        "image": "https://resizing.flixster.com/6dSw4xBjbDvrrHSl9gt0tcov0qU=/206x305/v2/https://resizing.flixster.com/M38VVEAlTMQsngkj6B-aZPRxX-Q=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMGM5OWM1NDktODgwOC00MzdkLWJmNDUtMTkwNTBlZmRjN2IxLmpwZw==",
+        "channel": [3,18],
         "description": "Geralt of Rivia, a monster hunter, struggles to find his place in a world where people are often more wicked than beasts."
-    },
-    {
+      },
+      {
         "id": 14,
         "title": "Brooklyn Nine-Nine",
-        "image": "",
-        "channel": [14],
+        "image": "https://resizing.flixster.com/mhAtoKDRvDYJofP0c28N0ycoUsY=/206x305/v2/https://resizing.flixster.com/JysRb3DWAU1VI5ywAvY4JwgiWZ0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjg3MDUxNi53ZWJw",
+        "channel": [2,29],
         "description": "A team of detectives in the NYPD solve crimes while balancing their quirky personal lives."
-    },
-    {
+      },
+      {
         "id": 15,
         "title": "Sherlock",
-        "image": "",
-        "channel": [15],
+        "image": "https://resizing.flixster.com/5qMifzXcYpTtT5rppUgTiDnTFN8=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p3547340_p_v8_af.jpg",
+        "channel": [1],
         "description": "A modern update finds the famous detective and his doctor partner solving crimes in 21st century London."
-    },
+      },
     {
         "id": 16,
         "title": "House of Cards",
-        "image": "",
-        "channel": [16],
+        "image": "https://resizing.flixster.com/tcxGG0ItXPw_sso0zfvEMAEYyaU=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9691630_b_v8_ag.jpg",
+        "channel": [3],
         "description": "A ruthless politician and his equally ambitious wife navigate the corridors of power in Washington, D.C."
     },
     {
         "id": 17,
         "title": "True Detective",
-        "image": "",
-        "channel": [17],
+        "image": "https://resizing.flixster.com/vulGFEnRxsgPMNd-U5BGD64CQT4=/206x305/v2/https://resizing.flixster.com/iBTDsDf7zD1To6HAvYUTjSgOjYk=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZjc5OTFhMjAtMDdhOS00NWMxLTlhYjktZjYwNTBmNjE3ODJmLmpwZw==",
+        "channel": [28],
         "description": "A crime anthology series that explores complex investigations across different timelines and locations."
     },
     {
         "id": 18,
         "title": "Fargo",
-        "image": "",
-        "channel": [18],
+        "image": "https://resizing.flixster.com/slhMxsubvCeWwNjrg5Fck-urfME=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17672_p_v8_av.jpg",
+        "channel": [29],
         "description": "Various tales of crime unfold in the small town of Fargo, where nothing is ever as it seems."
     },
     {
         "id": 19,
         "title": "Better Call Saul",
-        "image": "",
-        "channel": [19],
+        "image": "https://resizing.flixster.com/TXXuER-Azv-bELrXzmJ8BAaabxo=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10492751_b_v13_al.jpg",
+        "channel": [30],
         "description": "The story of small-time lawyer Jimmy McGill and his transformation into the sleazy attorney Saul Goodman."
     },
     {
         "id": 20,
         "title": "Peaky Blinders",
-        "image": "",
+        "image": "https://resizing.flixster.com/yuCI_MoNUTdQwm8CvDd4y9Hk8yA=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10182728_b_v13_bd.jpg",
         "channel": [20],
         "description": "A gangster family epic set in 1919 Birmingham, England, centered on the Peaky Blinders gang."
     }

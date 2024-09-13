@@ -1,242 +1,242 @@
 [
-  {
-    "id": 1,
-    "title": "A&E",
-    "image": "https://images.ctfassets.net/evnrpfa1vdk4/577c86WR8suScCo2SMeKg2/91c9b750feed352f542bbf1c46dbbbb0/AE.svg?fm=png",
-    "category": [1, 3],
-    "description": "A&E offers the hottest programs from hit real-life series to critically-acclaimed original movies, dramatic series and some of the most successful justice shows on television.",
-    "price": 5
-  },
-  {
-    "id": 2,
-    "title": "AMC",
-    "image": "https://images.ctfassets.net/evnrpfa1vdk4/68ltlIpks0yGskeeKy4W8W/b876e156f6f8ec09af319a5cf449dc27/amc.svg?fm=png",
-    "category": [1, 3],
-    "description": "AMC brings to its audience something deeper, something richer, something more. AMC's original drama series include Mad Men, Breaking Bad and The Walking Dead. AMC is available across all platforms, including on-air, online and on demand.",
-    "price": 2
-  },
-  {
-    "id": 3,
-    "title": "CTV Drama Channel",
-    "image": "https://images.ctfassets.net/evnrpfa1vdk4/1bHtXaCsPa6qekmOgiSGeu/dc339e21fc5a4bba0f2cc849f9fc1189/CTV_Drama_Channel_2019.svg?fm=png",
-    "category": [1, 3],
-    "description": "Get into addictive stories, from cutting-edge series to crowd-pleasing whodunits and riveting unscripted moments. Get into addictive stories, from cutting-edge series to crowd-pleasing whodunits and riveting unscripted moments.",
-    "price": 4
-  },
-  {
-    "id": 4,
-    "title": "Sportsnet 360",
-    "image": "https://images.ctfassets.net/evnrpfa1vdk4/kGnUynEOI0uaCmw0E2Gyy/55ba24e667bab29dc671aa19bdb311a5/SN_360_logo.svg?fm=",
-    "category": [2],
-    "description": "Sportsnet is Fuelled By Fans. We connect Canadian sports fans to their favourite teams, delivering world class sports programming on a local, regional and national level through four regional channels (Sportsnet East, Ontario, West and Pacific) and Sportsnet ONE, our nationally-distributed channel.",
-    "price": 2
-  },
-  {
-    "id": 5,
-    "title": "NFL Network",
-    "image": "https://images.ctfassets.net/evnrpfa1vdk4/3EmOTozXxCMicImWaK2gKC/104adb925a1f3d5a0f85fc516dc71dea/NFL-Network-logo.png?w=90&q=80&fm=webp",
-    "category": [2],
-    "description": "NFL Network (NFLN) is an American television specialty channel dedicated to American football, owned and operated by the National Football League (NFL). Fans turn to NFL Network to receive information and insights straight from team headquarters, league offices and wherever else the NFL is making news.",
-    "price": 5
-  },
-  {
-    "id": 6,
-    "title": "Golf Channel",
-    "image": "https://images.ctfassets.net/evnrpfa1vdk4/4oZoS0NPlKkWAwS28iKiCa/2a2924f1557b6a61e9c1587ad9a31d4a/Golf_Channel_2014.svg?fm=png",
-    "category": [2],
-    "description": "GOLF CHANNEL is the exclusive cable television home for the PGA Tour. In addition to being the leader in golf tournament coverage, GOLF CHANNEL is the home of innovative, insightful and entertaining programming, including news, instruction and original specials and series.",
-    "price": 1
-  },
-  {
-    "id": 7,
-    "title": "Fox Sports Racing",
-    "image": "https://images.ctfassets.net/evnrpfa1vdk4/z4Jq7w2n71lPC7wgA8tID/7ddf9b028c1201797b6a5ae9139663df/FOX_SPORTS_RACING.svg?fm=png",
-    "category": [2],
-    "description": "FOX Sports Racing delivers unparalleled access to the races, drivers, cars, bikes and lifestyles that race fans crave. Get Fox Sport Racing on TELUS Optik TV today.",
-    "price": 2
-  },
-  {
-    "id": 8,
-    "title": "NBA TV Canada",
-    "image": "https://images.ctfassets.net/evnrpfa1vdk4/57ouNusq2Bpb0xT71nL0bj/af2ce6183a4bec5f4e292afded48b7fb/NBA_TV_Canada.svg?fm=png",
-    "category": [2],
-    "description": "",
-    "price": 3
-  },
-  {
-    "id": 9,
-    "title": "Disney Time",
-    "image": "https://images.ctfassets.net/evnrpfa1vdk4/5wbeJd7WwwcqSgAogOUGWo/1c215939e37494fa6d791bbe2fd3380f/DisneyChannel_Hero_Logo.png?w=90&q=80&fm=webp",
-    "category": [3, 4],
-    "description": "Disney Channel is a 24-hour kid-driven, family-inclusive television network that taps into the world of kids and families through imagination, laughter and optimism with popular TV shows and larger than life original movies.",
-    "price": 4
-  },
-  {
-    "id": 10,
-    "title": "Disney Junior",
-    "image": "https://images.ctfassets.net/evnrpfa1vdk4/xOibrvkBGgmwaOw8iUywk/1c26608a9178eae4cecab0bc46489bc2/disney-jr-logo.png?w=90&q=80&fm=webp",
-    "category": [3, 4],
-    "description": "Disney Junior offers the best and most engaging programming for younger children with magical, musical and heartfelt stories. This is a 24-hour a day, commercial-free network with development-based programming dedicated to little ones.",
-    "price": 5
-  },
-  {
-    "id": 11,
-    "title": "Cartoon Network",
-    "image": "https://images.ctfassets.net/evnrpfa1vdk4/6CtwpkowlOTdHtNEW5GR9h/0e4485d4d6bfa583b7901789d86da042/CN_HERO_FULLCOLOR_3D_BLK_2000x1500.png?w=90&q=80&fm=webp",
-    "category": [3, 4],
-    "description": "Cartoon Network is the funny and unexpected brand that stands out from the pack in a way in which kids can relate. Our cartoon-crammed network delivers hilarious comedy, unexpected surprises and edge-of-your-seat action through the best in animated series and hit blockbuster movies. Cartoon Network is where anything is possible, where fun and adventure lives--all day, every day.",
-    "price": 6
-  },
-  {
-    "id": 12,
-    "title": "BabyTV",
-    "image": "https://images.ctfassets.net/evnrpfa1vdk4/2Z1isc9GRO90WQOpzjKYgX/87f35d6c7cced62f6bc28bbb7e56c4f4/Logo-BabyTV-2018__2018_.png?w=90&q=80&fm=webp",
-    "category": [3, 4],
-    "description": "BabyTV is dedicated to babies, toddlers and parents. Developed by educational experts, BabyTV programming offers an inspiring journey filled with numbers, animals, colours, music and more. Plus, it's completely commercial-free!",
-    "price": 2
-  },
-  {
-    "id": 13,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": 4
-  },
-  {
-    "id": 14,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": 3
-  },
-  {
-    "id": 15,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": ""
-  },
-  {
-    "id": 16,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": ""
-  },
-  {
-    "id": 17,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": ""
-  },
-  {
-    "id": 18,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": ""
-  },
-  {
-    "id": 19,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": ""
-  },
-  {
-    "id": 20,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": ""
-  },
-  {
-    "id": 21,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": ""
-  },
-  {
-    "id": 22,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": ""
-  },
-  {
-    "id": 23,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": ""
-  },
-  {
-    "id": 24,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": ""
-  },
-  {
-    "id": 25,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": ""
-  },
-  {
-    "id": 26,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": ""
-  },
-  {
-    "id": 27,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": ""
-  },
-  {
-    "id": 28,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": ""
-  },
-  {
-    "id": 29,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": ""
-  },
-  {
-    "id": 30,
-    "title": "AMC",
-    "image": "",
-    "category": [],
-    "description": "",
-    "price": ""
-  }
+    {
+        "id": 1,
+        "title": "A&E",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/577c86WR8suScCo2SMeKg2/91c9b750feed352f542bbf1c46dbbbb0/AE.svg?fm=png",
+        "category": [1, 3],
+        "description": "A&E offers the hottest programs from hit real-life series to critically-acclaimed original movies, dramatic series and some of the most successful justice shows on television.",
+        "price": "1"
+    },
+    {
+        "id": 2,
+        "title": "AMC",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/68ltlIpks0yGskeeKy4W8W/b876e156f6f8ec09af319a5cf449dc27/amc.svg?fm=png",
+        "category": [1, 3],
+        "description": "AMC brings to its audience something deeper, something richer, something more. AMC's original drama series include Mad Men, Breaking Bad and The Walking Dead. AMC is available across all platforms, including on-air, online and on demand.",
+        "price": "1.5"
+    },
+    {
+        "id": 3,
+        "title": "CTV Drama Channel",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/1bHtXaCsPa6qekmOgiSGeu/dc339e21fc5a4bba0f2cc849f9fc1189/CTV_Drama_Channel_2019.svg?fm=png",
+        "category": [1, 3],
+        "description": "Get into addictive stories, from cutting-edge series to crowd-pleasing whodunits and riveting unscripted moments. Get into addictive stories, from cutting-edge series to crowd-pleasing whodunits and riveting unscripted moments.",
+        "price": "3"
+    },
+    {
+        "id": 4,
+        "title": "Sportsnet 360",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/kGnUynEOI0uaCmw0E2Gyy/55ba24e667bab29dc671aa19bdb311a5/SN_360_logo.svg?fm=png",
+        "category": [2],
+        "description": "Sportsnet is Fuelled By Fans. We connect Canadian sports fans to their favourite teams, delivering world class sports programming on a local, regional and national level through four regional channels (Sportsnet East, Ontario, West and Pacific) and Sportsnet ONE, our nationally-distributed channel.",
+        "price": "4"
+    },
+    {
+        "id": 5,
+        "title": "NFL Network",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/3EmOTozXxCMicImWaK2gKC/104adb925a1f3d5a0f85fc516dc71dea/NFL-Network-logo.png?w=90&q=80&fm=webp",
+        "category": [2],
+        "description": "NFL Network (NFLN) is an American television specialty channel dedicated to American football, owned and operated by the National Football League (NFL). Fans turn to NFL Network to receive information and insights straight from team headquarters, league offices and wherever else the NFL is making news.",
+        "price": "2"
+    },
+    {
+        "id": 6,
+        "title": "Golf Channel",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/4oZoS0NPlKkWAwS28iKiCa/2a2924f1557b6a61e9c1587ad9a31d4a/Golf_Channel_2014.svg?fm=png",
+        "category": [2],
+        "description": "GOLF CHANNEL is the exclusive cable television home for the PGA Tour. In addition to being the leader in golf tournament coverage, GOLF CHANNEL is the home of innovative, insightful and entertaining programming, including news, instruction and original specials and series.",
+        "price": "1"
+    },
+    {
+        "id": 7,
+        "title": "Fox Sports Racing",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/z4Jq7w2n71lPC7wgA8tID/7ddf9b028c1201797b6a5ae9139663df/FOX_SPORTS_RACING.svg?fm=png",
+        "category": [2],
+        "description": "FOX Sports Racing delivers unparalleled access to the races, drivers, cars, bikes and lifestyles that race fans crave. Get Fox Sport Racing on TELUS Optik TV today.",
+        "price": "2"
+    },
+    {
+        "id": 8,
+        "title": "NBA TV Canada",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/57ouNusq2Bpb0xT71nL0bj/af2ce6183a4bec5f4e292afded48b7fb/NBA_TV_Canada.svg?fm=png",
+        "category": [2],
+        "description": "NBA TV Canada delivers 24/7 access to exclusive NBA programming, including live NBA games, analysis, highlights, and behind-the-scenes content for passionate basketball fans across the country.",
+        "price": "3"
+    },
+    {
+        "id": 9,
+        "title": "Disney Time",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/5wbeJd7WwwcqSgAogOUGWo/1c215939e37494fa6d791bbe2fd3380f/DisneyChannel_Hero_Logo.png?w=90&q=80&fm=webp",
+        "category": [3, 4],
+        "description": "Disney Channel is a 24-hour kid-driven, family-inclusive television network that taps into the world of kids and families through imagination, laughter and optimism with popular TV shows and larger than life original movies.",
+        "price": "2"
+    },
+    {
+        "id": 10,
+        "title": "Disney Junior",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/xOibrvkBGgmwaOw8iUywk/1c26608a9178eae4cecab0bc46489bc2/disney-jr-logo.png?w=90&q=80&fm=webp",
+        "category": [3, 4],
+        "description": "Disney Junior offers the best and most engaging programming for younger children with magical, musical and heartfelt stories. This is a 24-hour a day, commercial-free network with development-based programming dedicated to little ones.",
+        "price": "1.5"
+    },
+    {
+        "id": 11,
+        "title": "Cartoon Network",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/6CtwpkowlOTdHtNEW5GR9h/0e4485d4d6bfa583b7901789d86da042/CN_HERO_FULLCOLOR_3D_BLK_2000x1500.png?w=90&q=80&fm=webp",
+        "category": [3, 4],
+        "description": "Cartoon Network is the funny and unexpected brand that stands out from the pack in a way in which kids can relate. Our cartoon-crammed network delivers hilarious comedy, unexpected surprises and edge-of-your-seat action through the best in animated series and hit blockbuster movies. Cartoon Network is where anything is possible, where fun and adventure lives--all day, every day.",
+        "price": "2"
+    },
+    {
+        "id": 12,
+        "title": "BabyTV",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/2Z1isc9GRO90WQOpzjKYgX/87f35d6c7cced62f6bc28bbb7e56c4f4/Logo-BabyTV-2018__2018_.png?w=90&q=80&fm=webp",
+        "category": [3, 4],
+        "description": "BabyTV is dedicated to babies, toddlers and parents. Developed by educational experts, BabyTV programming offers an inspiring journey filled with numbers, animals, colours, music and more. Plus, it's completely commercial-free!",
+        "price": "3"
+    },
+    {
+        "id": 13,
+        "title": "NBC News",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/200px-NBC_logo_2022_%28vertical%29.svg.png",
+        "category": [4],
+        "description": "NBC News provides trusted, up-to-the-minute news coverage from around the world, offering in-depth analysis and breaking news, both national and international, to keep viewers informed.",
+        "price": "1"
+    },
+    {
+        "id": 14,
+        "title": "CNN",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/175px-CNN.svg.png",
+        "category": [4],
+        "description": "CNN is a global leader in news, providing viewers with 24/7 news coverage from around the world, delivering timely and accurate information on politics, global events, business, and more.",
+        "price": "2"
+    },
+    {
+        "id": 15,
+        "title": "CBC",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/CBC_logo.svg/220px-CBC_logo.svg.png",
+        "category": [4],
+        "description": "CBC (Canadian Broadcasting Corporation) is Canada’s national public broadcaster, delivering top-quality news, entertainment, and documentary programming to Canadian viewers coast-to-coast.",
+        "price": "1.5"
+    },
+    {
+        "id": 16,
+        "title": "CTV",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/220px-CTV_logo_2018.svg.png",
+        "category": [4],
+        "description": "CTV is one of Canada's leading TV networks, offering a wide range of popular programming, from news and sports to hit dramas and comedies, across both national and local channels.",
+        "price": "2.99"
+    },
+    {
+        "id": 17,
+        "title": "TVA",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/TVA_logo_2020.svg/220px-TVA_logo_2020.svg.png",
+        "category": [4],
+        "description": "TVA is Quebec's leading French-language network, offering viewers a wide range of news, entertainment, and popular programming specific to the province of Quebec.",
+        "price": "1.99"
+    },
+    {
+        "id": 18,
+        "title": "Bravo",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Bravo_2024.svg/220px-Bravo_2024.svg.png",
+        "category": [3, 5],
+        "description": "Bravo is a hub for pop culture fans, featuring reality TV, original series, and entertainment news that showcases the latest in celebrity, fashion, and lifestyle trends.",
+        "price": "2.99"
+    },
+    {
+        "id": 19,
+        "title": "Cooking Channel",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Cooking_Channel_Canada.png/200px-Cooking_Channel_Canada.png",
+        "category": [3, 5],
+        "description": "The Cooking Channel celebrates everything food-related, from delicious recipes to top chefs and culinary competitions, offering tasty inspiration to food lovers everywhere.",
+        "price": "1.99"
+    },
+    {
+        "id": 20,
+        "title": "Food Network",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Food_Network_Canada_%282013%29_Logo.png/150px-Food_Network_Canada_%282013%29_Logo.png",
+        "category": [3, 5],
+        "description": "Food Network is a top destination for culinary entertainment, featuring cooking shows, competitions, and food-related content that inspires viewers to explore new flavors and dishes.",
+        "price": "0.99"
+    },
+    {
+        "id": 21,
+        "title": "MovieTime",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Movietime.svg/180px-Movietime.svg.png",
+        "category": [5],
+        "description": "MovieTime offers movie fans a curated selection of films, from blockbuster hits to beloved classics, perfect for viewers who want to enjoy a wide variety of cinematic genres.",
+        "price": "1.99"
+    },
+    {
+        "id": 22,
+        "title": "Documentary Channel",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Canada_documentary_channel.png/220px-Canada_documentary_channel.png",
+        "category": [5],
+        "description": "The Documentary Channel offers thought-provoking and award-winning documentaries from Canada and around the world, covering a wide array of topics from history to culture.",
+        "price": "2"
+    },
+    {
+        "id": 23,
+        "title": "Cottage Life",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/5FjmfJwX7iaISI0kkYGmEC/946a115185e75d302199a7537a5047e7/CottageLife.svg?fm=png",
+        "category": [5],
+        "description": "Cottage Life is not just a place, it's a frame of mind. It's a channel which celebrates Canadian cottage lifestyle with favourite programming themes like DIY, food, makeovers, and the outdoors. Call it a cottage, a cabin, or camp it's all here at Cottage Life, where every day is the weekend.",
+        "price": "1.99"
+    },
+    {
+        "id": 24,
+        "title": "Nat Geo Wild",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/2Pk6NmtUE0mKk4OSsMYwWq/0a7b4a728e0950754872c167f2ab8419/Nat-Geo-Wild-Logo.png?w=90&q=80&fm=webp",
+        "category": [7],
+        "description": "Nat Geo Wild excites people's passion for wild animals and wild places, by taking viewers on the amazing explorations and adventures that surround us.",
+        "price": "2.99"
+    },
+    {
+        "id": 25,
+        "title": "National Geographic",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/1wMuKUIfdmIgiiu6EiEiK8/5719499b20e24d3fbc413c6259049a48/National-Geographic-Logo.png?w=90&q=80&fm=webp",
+        "category": [7],
+        "description": "National Geographic believes in the power of science, exploration and storytelling. Its award-winning series tell stories of humankind from an up-close perspective.",
+        "price": "1.99"
+    },
+    {
+        "id": 26,
+        "title": "Animal Planet",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/7GPVTztMlx9X5gEHJ6HDAc/0963aa51210dd0d698851b1d6e9424bd/AnimalPlanet_Logo_Screen_RGB_-_Chris_Vales.png?w=90&q=80&fm=webp",
+        "category": [7],
+        "description": "Animal Planet captivates viewers with amazing stories about animals and the people who connect with them.",
+        "price": "2.99"
+    },
+    {
+        "id": 27,
+        "title": "FX",
+        "image": "https://images.vmedia.ca/api/images?e=301492&t=10&n=1&height=100",
+        "category": [3],
+        "description": "FX delivers a bold lineup of edgy, original programming, including critically-acclaimed dramas, comedies, and docuseries, appealing to audiences who enjoy captivating storytelling.",
+        "price": "1.99"
+    },
+    {
+        "id": 28,
+        "title": "MTV",
+        "image": "https://images.vmedia.ca/api/images?e=301178&t=10&n=1&height=100",
+        "category": [3],
+        "description": "MTV is home to iconic reality shows, music programming, and pop culture news, delivering entertainment that's in tune with youth culture and the latest trends.",
+        "price": "0.99"
+    },
+    {
+        "id": 29,
+        "title": "CTV Comedy",
+        "image": "https://images.vmedia.ca/api/images?e=301090&t=10&n=1&height=100",
+        "category": [3],
+        "description": "CTV Comedy provides a lineup of hilarious comedies, stand-up specials, and late-night talk shows, offering plenty of laughs for viewers who enjoy sharp wit and humor.",
+        "price": "1.99"
+    },
+    {
+        "id": 30,
+        "title": "Spark",
+        "image": "https://images.vmedia.ca/api/images?e=301174&t=10&n=1&height=100",
+        "category": [3],
+        "description": "Spark ignites curiosity and inspires learning with educational programming focused on science, technology, and the wonders of the natural world.",
+        "price": "1.99"
+    }
 ]
