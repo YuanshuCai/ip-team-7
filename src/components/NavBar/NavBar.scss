@@ -1,4 +1,5 @@
 .nav-bar {
+    margin: 0% 13%;
     
     &__links {
         display: flex;
@@ -11,11 +12,13 @@
         position: relative;
         text-decoration: none;
         color: grey;
+
+        &--active {
+            border-bottom: solid 2px purple;
+        }
     }
 
-    &--active {
-        border-bottom: solid 2px purple;
-    }
+
 
     &::after {
         border-bottom: solid 2px purple;
