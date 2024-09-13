@@ -5,7 +5,7 @@ const Price = ({
   fullPrice,
   currentPrice,
   amountThemePacks,
-  amounChannels,
+  amountChannels,
   amountPremiums,
 }) => {
   const [isScrolledToBottom, setIsScrolledToBottom] = useState(false);
@@ -47,10 +47,10 @@ const Price = ({
                 {amountThemePacks > 1 ? "packs" : "pack"}
               </p>
             )}
-            {amounChannels > 0 && (
+            {amountChannels > 0 && (
               <p>
-                Added {amounChannels}{" "}
-                {amounChannels > 1 ? "channels" : "channel"}
+                Added {amountChannels}{" "}
+                {amountChannels > 1 ? "channels" : "channel"}
               </p>
             )}
             {amountPremiums > 0 && (
