@@ -7,6 +7,7 @@ const CategoryCardItem = ({
   index,
   handleCheckboxChange,
   isSelected,
+  price,
 }) => {
   return (
     <div className="category-card">
@@ -35,12 +36,12 @@ const CategoryCardItem = ({
             ))}
           </div>
           <p className="category-card__channels">
-            {icons.length <= 6 ? icons.length : `${icons.length - 6} + `}
+            {icons.length <= 6 ? icons.length : `${icons.length - 6} + `}{" "}
             channels
           </p>
         </div>
       </div>
-      <div className="category-card__price">$10/mon</div>
+      <div className="category-card__price">{price}/mon</div>
     </div>
   );
 };

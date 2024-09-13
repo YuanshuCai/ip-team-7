@@ -5,15 +5,19 @@ import channels from "../../assets/data/channels.json";
 import "./CategoryCardsList.scss";
 
 const cardData = categories.map((category) => {
-  const icons = category.channels.map((channelId) => {
+  let icons;
+  let price = 0;
+  category.channels.map((channelId) => {
     const channel = channels.find((ch) => ch.id === channelId);
-    return channel ? channel.image : "";
+    icons = channel ? channel.image : "";
+    price += channel ? parseInt(channel.price) : 0;
   });
 
   return {
     id: category.category_id,
     title: category.category_name,
     icons: icons,
+    price: price,
   };
 });
 
@@ -39,6 +43,7 @@ const CategoryCardList = () => {
             index={card.id}
             handleCheckboxChange={handleCheckboxChange}
             title={card.title}
+            price={price}
             icons={card.icons}
             isSelected={selectedCategories.includes(card.id)}
           />
