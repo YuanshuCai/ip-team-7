@@ -1,0 +1,23 @@
+@import "../../styles/global.scss";
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  &-input {
+    width: 300px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 0.0625rem solid $telus-black;
+    border-radius: 50px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    &:focus {
+      border: 0.125rem solid $telus-purple;
+    }
+    &::placeholder {
+      color: $gray;
+    }
+  }
+}
