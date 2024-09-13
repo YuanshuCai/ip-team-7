@@ -19,11 +19,7 @@
         "category_name":"Family Time",
         "channels":[9,10,11,12]
     },
-    {
-        "category_id":4,
-        "category_name":"News",
-        "channels":[13,14,15,16,17]
-    },
+    
     {
         "category_id":5,
         "category_name":"Life Style",
@@ -38,5 +34,10 @@
         "category_id":7,
         "category_name":"Outdoor",
         "channels":[24,25,26]
+    },
+    {
+        "category_id":8,
+        "category_name":"News",
+        "channels":[13,14,15,16,17]
     }
 ]
