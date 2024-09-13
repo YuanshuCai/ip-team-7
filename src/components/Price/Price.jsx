@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import "./Price.scss";
 
 const Price = ({
@@ -7,8 +8,25 @@ const Price = ({
   amounChannels,
   amountPremiums,
 }) => {
+  const [isScrolledToBottom, setIsScrolledToBottom] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isBottom =
+        window.innerHeight + window.scrollY >=
+        document.documentElement.scrollHeight - 142;
+      setIsScrolledToBottom(isBottom);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="checkout">
+    <div className={`checkout ${isScrolledToBottom ? "checkout--top" : ""}`}>
       <div className="checkout__inner">
         <div className="checkout__content">
           <div className="checkout__title">
