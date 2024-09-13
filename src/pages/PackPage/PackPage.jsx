@@ -1,9 +1,14 @@
+import Heading from "../../components/Heading/Heading";
 import CategoryCardList from "../../components/CategoryCardsList/CategoryCardsList";
 
-function PackPage() {
+function PackPage({ selectedCategories, setSelectedCategories }) {
   return (
     <div>
-      <CategoryCardList />
+      <Heading text="theme packs" />
+      <CategoryCardList
+        selectedCategories={selectedCategories}
+        setSelectedCategories={setSelectedCategories}
+      />
     </div>
   );
 }
