@@ -1,0 +1,43 @@
+@import "../../styles/global.scss";
+
+.dropdown {
+  position: relative;
+  width: 15rem;
+  box-shadow: 0 4px 6px rgba($telus-black, 0.1);
+
+  &__btn {
+    cursor: pointer;
+    padding: 0.625rem;
+    background-color: $white;
+    border: 1px solid $light-grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    width: 100%;
+    svg {
+      vertical-align: text-top;
+    }
+  }
+
+  &__list {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-color: $white;
+    border: 1px solid $light-grey;
+    box-shadow: 0 4px 6px rgba($telus-black, 0.1);
+    width: calc(100% - 0.125rem);
+  }
+
+  &__item {
+    padding: 0.625rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+
+    &:hover {
+      background-color: $light-grey;
+    }
+  }
+}
