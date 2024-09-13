@@ -46,7 +46,13 @@ $price-background-color: #f7f7f8;
     gap: 2rem;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 16px;
+    margin: 0 auto;
+  }
+  &__icons-channels {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
   }
   &__icon {
     width: 3rem;
