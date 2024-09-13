@@ -1,6 +1,5 @@
 import './ShowsModal.scss';
 import ShowCard from "./ShowCard.jsx";
-import testImage from "../../assets/images/test-lor.jpg";
 import closeIcon from "../../assets/icons/close.png";
 import showsData from "../../assets/data/shows.json";
 
