@@ -26,7 +26,7 @@
     {
         "id": 4,
         "title": "Sportsnet 360",
-        "image": "https://www.telus.com/channel-selection/guide/optik/theme-packs/sports-outdoors/?offer=sportsnet-and-beyond-optik",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/kGnUynEOI0uaCmw0E2Gyy/55ba24e667bab29dc671aa19bdb311a5/SN_360_logo.svg?fm=png",
         "category": [2],
         "description": "Sportsnet is Fuelled By Fans. We connect Canadian sports fans to their favourite teams, delivering world class sports programming on a local, regional and national level through four regional channels (Sportsnet East, Ontario, West and Pacific) and Sportsnet ONE, our nationally-distributed channel.",
         "price": ""
@@ -98,7 +98,7 @@
     {
         "id": 13,
         "title": "NBC News",
-        "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQIAAADECAMAAABDV99/AAABblBMVEX///8AAADvFUH/cRIGneD8zBIFrD9uVdz8ygAAqTP95p729vab16vm5uakpKQAl97s7Ox3d3c6Ojr/ZwBFRUVrUdu+vr5ra2uamprY2NhnTNv/bABkSNoAld7vADnuADTuAC2Kd+JhRNoApyv6+f7R6vjT09NOTk5XV1cyMjLJyckmJiaNjY2urq5paWnp5fmqnenRy/Pz8fz/2MWCbeDi8vv/qHz+89AbGxvIwPH82d/95+v6wcp2X962q+z95Oj/fzH/8ur/6Nwtp+P/vp7z+/bB5sv94Yf911mBxeyRkZGAgID4sLvzXnZ8Zt+zqOvxOVnwI0v0cobc1/aUhOT/ikj3maf/sYv/kld2wevyTWj/eSL7y9LCue+73/X3nqud0fD/0bv+7bpfwnpXtOf800H94oyCzpe648Xc8uP1iJedj+b/rIL/m2f5tL55wuv/+eP9225Gumf+67D/uphvxoQmtFT81Uyn3LWK0Z0iB0G/AAAT00lEQVR4nO1daUMUxxZtARl1ZB3AYRv2XQYVjbigIioGXFBjEmNCXIgLap579N+/3qrq1l63phsm73G+CENXd9fpU/fculU9BkF+uHzr5/ubDQ337m3e3rl1Htt64dzdn04vFwp3Rt5cepDH7eWO8zsNw0OVSkOMSmVoeOj23+6tH7zpHujr6+4uhOju7hsYGDk3nt+95oKLm8Np7xkqw5WdCy6Nx+8WBvoKPLoHut+cyvuuM8T532QCYgxVdorW1pfCx19QoG/gxL9GCTsaAmISGi6aGz9YFgUASCic3J0e1IgLm0NaAiIM3ze1PjGgVAAZDqMndqsbNeBiRS+BVAib2ogwPqKXQIKBkbofDBeHLQSEqNzTcHBq2SSBdDAs1zkHvzswEHGg7Ma4AwPhYCjUNQfnnRgIOdhUtT7twkDIwZ3d7hYC424EhBhSxMQ3tjhAx8Kb3e+aK27bIiHDsOSNJ0cdGSgURuvWG11CIcU9sXXBbRjEQ6Fuw8E9BAMNQ3/yjS+5DoN4KNRpenALI4IQXONxdw3EHNTnfGETxwAvg3MDOAru7lUvTXBLCRh4YxzBqaB7ea+6acJ9dztIMHyZNT6FE0GYKNdhFcU9JyCAIwE5DuozN3BNDBkqt1nrN7hxUJ8j4U/zFFkJ5u53sBQUBhb2sLNqoENBGAzohPEUJilIKTi3l71VAmmJMQW/k8YL7skxQR3aIp6BhiFaUj6JjYZhMBjZy96qcAE/DhqGbpHWPhTU3ZT5gkc0ZK54Dh8LCoW97K4Kl2ujYLQbwJGCepst1jYQHpweoTi93GesIv9vUaBZUjh1csTuEN11NxB8HGFYv9T6QL2gBCmov/RwEy+DIcMK44ItQHb/tHt9c4RHdqgupaf4ySKDvku71jVX3EJbQuU3/dlOWusHdThbxrtiRbu4eGnZ7gnd9WYIgcckYehn9YnOLVtjYV2GgiD4GSuDIeWuk4XTTlnBQD0uJaBTZKUn3nVLi/bKEleuLi4+Xby6ovkzYi0poUDecDI+4jhf0k6Vz0xsbW1NTOQRKBbfXikR9D98u6g4BFtClj1xwXlFaUCxjlDcerTaNtgWY7Bp+8eJTPv/Lux3fyNFf3+p9E5mAZcdyZ644DYIonEgF0+3tgfbmiBCIh5lxcLTxyXQfUpD6cpT4cC/UTKQPHHceY5YGBULh0+a+P4TGlazIGHl15Lc/5SEh1f5Y3GLiqInuq+miBWjrVUlATEJ2/YtbhZc61cogJHwC3cwyhdFT0QsrguO+EhLQIyt2hh4p5NAitJD6A8XMCNB9ETHPSYF0RHP6CWQCuHHWhjQDgImhMeQA8xcaZg3BEQRue8P0G7C3P+Yg//UwIBhEFAOGkFAwCwpCXssEOXDAUDehEUCCQePfBmwjQLCAdDBb84yED3xD2cK4P4KJwZCDp74MXDNiYFoLLA27nttRE90VwFwxDNOBIQY9IqJVx0ZCDl4x1o5jwPREx+4LiVAR1x1paCpySdlfugQCFKUWJLkvLoq1k5PuYZD4Ig/ug2DGB7h4KmzCCId0GbjriNBmic6qgA44plBdwaa2vB54hUEA439b2m7HceAOCwq03F9HTjiNoKBpqZtLAMoEYRDgbrCZVcZiFe01UuJCih1ExgReMgAEQliGbBM2a1sIM8TTzhZAnBEnAjQ0cDdDggHtKnjZnSpduqWGLDNJWcQsTABzhSu4UQQjoRrtK1T2UCunTq5IqiaYuwgRhsuN0COgxBXaFunFQV5PdFpkgBWD7AaQI6EFTQDjSVWRXIZCIraqQMF3afp0U/Q46CpCUPBIjYUhMHgV9p6x0EGkicGgcM7KWCPFSIxJGg7g6DgM14FjSU6Y3Qpp1fki9pdESyob3mIABUMfvCgoP8H2txeNlCtJ9pdESylbuMZwM0X8dEw4oCmR/aygWo90e6KbAu+4yRZAKZ89NiDgcb+z7S9tWygWk+0uiIonT/yYQCVI/uIIARtby0bqPbYWF2RFQqc6wS7TQGYM9vK6cr1RAsFoFCATosSrCIo8BNB/xV6AlvZQOGJQWBxBFAo8BMBigKvWADTo3ELBUOqq5rXUkChwMcRI2AGgpcj8OmRMSCq99iYXRE4okdaFANTTPfJC2IZOJYN1HtszO/psdK5nyMi8wL0RJHIgFWPjGUD9R4b42bsGgoFlAJMdoguF1AZ0FMYywbqfacLJgqAI+KqRYACzBzB0xK4soHJF9X7TscNAwE4ol9a1IQzBP9gANIjU9lAs+/U4AjAET0jAXZJyX8ksPTIQIFinhhB74rAEX0KBQkFqHHgbYuN/Q/pKfS+qNt3qndFUDr3JABfRUcW0YEMWNlAGxB1+071rthHHdE3LUKLoAYZsAVGrS/q9p1qXRE4om9ahF9KqSEa0PRI64u6dzG0rshK58j1EwCPddXPnhyAVRVdOV33LobujU1QOt/2JMBvdd13KDBf1O3Cq+jexdCJgJbO8esnCXz3mTzOrWygu6J6yxV4JdGzUNCGDwQJVhq9OABlA/UuPP27GOoX2EHp3E8DyLwwAw5Y2UD93prhXQxVMADfX+OXFrX5MxBy8NAnJoKygbKcLn6ZDYPSFcGucy9H9B4FKX7w4YClR8pyus4TNa7Idp17pUW+u80YFk07cHUyYKsqqnI6/BITHipXrM0RM9mIXXTbfshzQNMjVTld64nKr7garcUR/Tdd8niKFoK5bCB9txeD7IpgMRldKGhryuy1DP2GfC1oW7mcbno/UXZF5ohFrAgGM5JAAqwQWHpUlCkwfPmp5IpgMRnpiG217sIXgRSCqWyg90TFNlxQOsdJIKsoAGF8OUOWAUuPxICo90SFK476OWLmEkiAEoKhbKD3RNkVwWIyJi1qe5TX67wYIejLBgZPlL4BlpXOUesnuUggAUIIsGzg7ImiKwJH3HaXwHa+b3RfU72wp5YBbcOX002eKG44YqVzxPpJNhJ4f/bTi7UPa0eenb0u/sl55gTSIy4YmDwxCO7CYAAc0bVQoJDA9devjn5/+fLl0RuvXfv/7MMhgINrZ4W/uwqBvazC7cIzeaLgivjSubRseOPL17GxscMxwn+ff7P3//1a1G2I8Pe199wxjkLQ+KLJE4UNR33IQoEogddfwl43Q4Q0fDFr4foHof+EhZs8CU5C0JQNTJ7If/0lunTOS+D1R6H/hIXn0uhm+KQkICHhBXekkxDUZYOK8Q3acRgMqSO6pEWCBK5/GVP0PyHh8FHd5W/qCIhJOMjHBAchqMsGyq9DZ2CuCBaTt9ES+HZYpQCCsY9KIbw/aGIgIuEDd/xVuxBUZQOzJ0JXxJTO27a55bLrz7USSIXQrIgIZ7WDQCuEzzYhgM2YtGxg9kTgiqB0bi8UYCSQCuGGzICNgJiENa7R1SsWITBfpGUDsycCVxygjmjbaImVQMrBK/7C750YQAsBlA1IMDB7InRFZ0d8wp3ARQIKHazY4oCnEMCqCikbmD2RvbIJHDEHCcQ4DGPiX84MyEL4xSQElh6RXXhDlm+VIK7oWDoXSuSvXCUQ4ytreATBAE4IID1KywYWTySuCErnhrSoBgnEQ4HmB66BwEcILD1KygbwK7DVSFyRlc4NhYKaJBCBDgVjSqTmwFkIYDNmvNvA5onphiOXQkGNEogp+JK0dfNDXyGwdzjjsoHNE1NXZKVzbVokSqAZK4EIY0mGhBcBRghC2UD+b2JEJK5If9UUCjKQQCyD51FrdCRACoEvG9g8MXFFsJisYeAJ18ZPArEMomiw5kuBNH1UC4GlR1HZQPkiAo8+WDpXpkVtq5lIIJbB9/AE3gxEJPzF1xHeKjgAqyr3K+baaYI73aB0nqsEInytYRyohaDYnwTLBnZPjFxx1FQoyFACEcKR8KkmCmQhyHsywKrKpuo/DhNxoo85opwWDT7hDsbnAiIFr2oIBRohLEpCYKsqfw9bPTEI/mD/P5i00TJjCTTHweCfWimwCwGUDeyeGG04oj+KhQLh68pqlkBznB3VTEDEwaEj3K2JQmDp0Y7Df7e8QB1RSIuETTMZSCDCx0woUAkBkgB80c5AME4dkU+LBAncqMkIGL5mRIEsBJgjgLIBCiYJ6AvEe0WBOUcoqb4u1gqYFuUkgWwpMEUEUDZAYDV/CTRHseCf7DgwWENJ9+XJBrBCQX4SCPE8+FC7KQIORCGQTcxgVcUZ24QAYetclhIITfFl8CJLCvRC6EfLgDjiYJ4SCCk4GjzLlgKdEEDZwBGPdkECzXEpvbZpkpKEf1RCeBzgML4bEmhOCgaZUxAK4RN347EQSuJ3Z1sQOaIogZdZSyBCeN5M4yEhQdiP8K4EywZOaJK+vPfG18wlEEfDIPNgkHAgRISnjf0l4dvDzdhqE7fR5yKBdFUtDwoka1h5V3oXILA6yEvgdR4SaCYLShnbIuVAFAImPZrYjSgQYizZfrWSDwWSNawgAqKwaygnCTTHwTBCTjKQheCJvCRARRAiJwYOyjmCB3KUQDhFIvBaUnPkQMgR0MhPAnQ5LQZydR1HQi1CyFMCwlabmuvIJg78hfA9RwmA3QUJ8sgRGQk3vYSQqwSax76L18uXAx8h5CoBBQNRPMhXCMiCQb4SAHYIcdZ925kPBzgh5CyBr7rt6HkLwbADfDclcPiw6a2EF+LbCJlycOjZ3kvg8JjoBBKe3TyUHw2Hbu6tBML+P39lv4OQhbW/DuUGa0T4Tt6jyRZjIT6+lPZeG/D+7LMjueCF+KqTgG/fj+aBb6/cX87axz72sY997GMf+9jHPvbxf45iCvXH/DEctGdsmd+Y6pzp7KqWJ42XNH6svCQ9QHEG1UmFj4qz5epUV+dM11S1PAuO7DyQQLjdcvJpa/xLxwEFZqo9qu61dsGDNloUFKV/6xQ+Tz9uj3+ZUV0yQXjKKv2JoJ1cEJxwCp4wmKzyp5kqk+b0jnkC7RREmBe7V5YOOSY9bUIBd7siBZ3SiSAFPfDuYqSfHFhiHxWTT2YSiqYUZ+qaL3IUTHtQIDRqmVMdI4qlRfMXBAXt0tWPgb+mmE0+WI9+ntSdrAwpiH/DUsBxMK855piOAqJRNAXkz1JjqIyN5INJ/pKKk4GhC8OBKwVgLLRqj+niBgO4nxlfCtaTH2dJW/aU2TNZSj6IflSqk/YPRi9wp84U0Ceh00CIJe5pw0fS4UFBL+syjSbH5ftJL1OVbm1pif6YRGRIAVC1igIQfULnI41mxecQYqq6cWya/jbHR0ROlSAcqCiY75ERuyLsAnvi8IzpDUYqpbfSNd+b3n2VsslTAMKBjYIg6OXbMK3NzKddnp1SMSAMTCYQFQXa7GOaa60SFjBO8ieuA5MdB44HMgUsHNgpINbdAY8XjppXMCBQwLIDFAXgGQe80ue4082BM08J5yAn5ylYIh9jKZBJjNErMyCGZzqeURSAkR4ApUdIbBFGiwPwTmXwFNBwYKeA9CQeCCQzYTGaHNUeiBAdigxeFAXkAXBN4W0eB/dDIkWvkQKaPJXdKCj2kPPGpJPHsCGeXoGUgk4aPVp8KOgAvaIPIOmKdALqaBtKElIKeqkLTWopUIIfB5ZvKoEUTJF4SsKBigIJtA9pt+MnliZB5DkAy5iCxyafbJR7JvmZC6GgSA8qYihIrkEmKXy+bKagi4VQjkZHCorkLKzlZNqXnkCcRcip0VIHy+kIBYyqKQQF6SV6+V8dKWBRrAdPAZkHFunVl8hNR4we4w5XTxE62gUKWEfX3SnomuQuoZo+GyhgygPu7UpBmV6S9jzlYi7gLDFCj3ymCPMCBWyOPomdIxAKRD+wUMCezgyegl7ScdKFWSr4XvBHcrT6hMcFCphbFRFzhNnAeyDQ6U58s0gK6IMmWipSJywDiVD0qCoG8RMEFLAka0pJQbnYTtE7T24yKlKQcChMi+0UBPS+epQUlFt5lEGakQ739lTkUZY0SU7NAgVAsac8LVErUMAed7lVQYHwjMnBswEzRTQFwIhUFJhMluTIHYRDdh/cJXgU22dbNwAR8wIFLBxM2ykg11sHdKxjKSC1nfD3JSQFqfSm5sCh6X1UbXfTTmfXVZECMXk1UlClJ2ERVy6XSpm58IiOC5d0poB3+yQlmeVOpalgxyCReE6kQCx8GCnoABcXekBR7JQmaKJKhVmKOwUbsFma6XCnYv2dlqcqnfQggQJWh7RTkB4Tx0BWNeOMcZ4eoKegeICDOwWzcrMAVsqr9MhwjHWI+kw1tCRTwMvLRAFR8LrQbIqQUOzpgkfoKBDU604BfOREajAHoilw8line6AUyN1PKyjgwgFHwXpLL8M8zW6THnM56PR6eX0D+DC33iCHay4ccBRUj0mosuACrkAeD5QUee6Mlpnj870tLe0ts+u00lZWUMCFA4fUiIw4fQH5AD86FI4Fw4G1fEqzXnhJKvNp6bh2xTm4hjIFcDw5UEDrjWJoB6hCQSsogHdppYBV3ul0G5Tf2AMktQvj3U8HSgpAPdZOAYj38mpaiuPw5CoKYDhAUMCCAYs2jE2qPEN5Pw42KgoYu1YKuFUSzXxMmDwpUzcmIQwF9MbA7dOW4OytS+pTLcXjR0UBG2SO9QKCouLIDU0FWche6Z1jKKCcK+6dT0d6VCdMx2enigIaDpIuHlM0jwovivJAOx8R5sqyrbVIPYkb8hRol8C4xWPVkjpX1oWfrwtSqJLksb0lhnSfCYrwGIh2vWP3tnaE+f7SzPRGq2J3AT23mK8VW+CdKC5JL627TcNn6V961qszcyGmN9j2j/8CW++1X75/aBYAAAAASUVORK5CYII=",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/200px-NBC_logo_2022_%28vertical%29.svg.png",
         "category": [4],
         "description": "",
         "price": ""
@@ -106,105 +106,105 @@
     {
         "id": 14,
         "title": "CNN",
-        "image": "data:image/png;base64,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",
-        "category": [],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/175px-CNN.svg.png",
+        "category": [4],
         "description": "",
         "price": ""
     },
     {
         "id": 15,
-        "title": "AMC",
-        "image": "",
-        "category": [],
+        "title": "CBC",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/CBC_logo.svg/220px-CBC_logo.svg.png",
+        "category": [4],
         "description": "",
         "price": ""
     },
     {
         "id": 16,
-        "title": "AMC",
-        "image": "",
-        "category": [],
+        "title": "CTV",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/220px-CTV_logo_2018.svg.png",
+        "category": [4],
         "description": "",
         "price": ""
     },
     {
         "id": 17,
-        "title": "AMC",
-        "image": "",
-        "category": [],
+        "title": "TVA",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/TVA_logo_2020.svg/220px-TVA_logo_2020.svg.png",
+        "category": [4],
         "description": "",
         "price": ""
     },
     {
         "id": 18,
-        "title": "AMC",
-        "image": "",
-        "category": [],
+        "title": "Bravo",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Bravo_2024.svg/220px-Bravo_2024.svg.png",
+        "category": [3,5],
         "description": "",
         "price": ""
     },
     {
         "id": 19,
-        "title": "AMC",
-        "image": "",
-        "category": [],
+        "title": "Cooking Channel",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Cooking_Channel_Canada.png/200px-Cooking_Channel_Canada.png",
+        "category": [3,5],
         "description": "",
         "price": ""
     },
     {
         "id": 20,
-        "title": "AMC",
-        "image": "",
-        "category": [],
+        "title": "Food Network",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Food_Network_Canada_%282013%29_Logo.png/150px-Food_Network_Canada_%282013%29_Logo.png",
+        "category": [3,5],
         "description": "",
         "price": ""
     },
     {
         "id": 21,
-        "title": "AMC",
-        "image": "",
-        "category": [],
+        "title": "MovieTime",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Movietime.svg/180px-Movietime.svg.png",
+        "category": [5],
         "description": "",
         "price": ""
     },
     {
         "id": 22,
-        "title": "AMC",
-        "image": "",
-        "category": [],
+        "title": "Documentary Channel",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Canada_documentary_channel.png/220px-Canada_documentary_channel.png",
+        "category": [5],
         "description": "",
         "price": ""
     },
     {
         "id": 23,
-        "title": "AMC",
-        "image": "",
-        "category": [],
-        "description": "",
+        "title": "Cottage Life",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/5FjmfJwX7iaISI0kkYGmEC/946a115185e75d302199a7537a5047e7/CottageLife.svg?fm=png",
+        "category": [5],
+        "description": "Cottage Life is not just a place, it's a frame of mind. It's a channel which celebrates Canadian cottage lifestyle with favourite programming themes like DIY, food, makeovers, and the outdoors. Call it a cottage, a cabin, or camp it's all here at Cottage Life, where every day is the weekend.",
         "price": ""
     },
     {
         "id": 24,
-        "title": "AMC",
-        "image": "",
-        "category": [],
-        "description": "",
+        "title": "Nat Geo Wild",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/2Pk6NmtUE0mKk4OSsMYwWq/0a7b4a728e0950754872c167f2ab8419/Nat-Geo-Wild-Logo.png?w=90&q=80&fm=webp",
+        "category": [7],
+        "description": "Nat Geo Wild excites people's passion for wild animals and wild places, by taking viewers on the amazing explorations and adventures that surround us.",
         "price": ""
     },
     {
         "id": 25,
-        "title": "AMC",
-        "image": "",
-        "category": [],
-        "description": "",
+        "title": "National Geographic",
+        "image": "https://images.ctfassets.net/evnrpfa1vdk4/1wMuKUIfdmIgiiu6EiEiK8/5719499b20e24d3fbc413c6259049a48/National-Geographic-Logo.png?w=90&q=80&fm=webp",
+        "category": [7],
+        "description": "National Geographic believes in the power of science, exploration and storytelling. Its award-winning series tell stories of humankind from an up-close perspective.",
         "price": ""
     },
     {
         "id": 26,
         "title": "AMC",
         "image": "",
-        "category": [],
-        "description": "",
+        "category": [7],
+        "description": "Animal Planet captivate viewers with amazing stories about animals and the people who connect with them.",
         "price": ""
     },
     {
