@@ -1,0 +1,19 @@
+.category-card-list {
+    display: flex;
+    flex-direction: column; 
+    gap: 16px; 
+    padding: 16px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+  
+  .category-card-list__row {
+    display: flex;
+    gap: 16px; 
+  }
+  
+  .category-card-list__row > * {
+    flex: 1; 
+    max-width: calc(25% - 16px); 
+    box-sizing: border-box; 
+  }
