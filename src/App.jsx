@@ -9,13 +9,14 @@ import PremiumPage from "./pages/PremiumPage/PremiumPage";
 import categories from "./assets/data/channel_category.json";
 import channels from "./assets/data/channels.json";
 import ChannelPage from "./pages/ChannelPage/ChannelPage.jsx";
+import premiums from "./assets/data/premiums.json";
 
 function App() {
   const [selectedCategories, setSelectedCategories] = useState([]);
   const [selectedChannels, setSelectedChannels] = useState([]);
   const [selectedPremiums, setSelectedPremiums] = useState([]);
 
-  const fullPrice = selectedCategories.reduce((total, categoryId) => {
+  const categoryPrice = selectedCategories.reduce((total, categoryId) => {
     const category = categories.find((cat) => cat.category_id === categoryId);
     if (category) {
       const categoryPrice = category.channels.reduce((sum, channelId) => {
@@ -26,6 +27,13 @@ function App() {
     }
     return total;
   }, 0);
+
+  const premiumPrice = selectedPremiums.reduce((total, premiumId) => {
+    const premium = premiums.find((prem) => prem.id === premiumId);
+    return total + (premium ? parseInt(premium.price) : 0);
+  }, 0);
+
+  const currentPrice = categoryPrice + premiumPrice;
   return (
     <>
       <BrowserRouter>
@@ -42,15 +50,23 @@ function App() {
             }
           />
           {/* <Route path="/channel" element={<ChannelPage/>}/> */}
-          <Route path="/premiums" element={<PremiumPage />} />
           <Route path="/channel" element={<Navigate to="/channel/1" />} />
           <Route path="/channel/:id" element={<ChannelPage searchResults={selectedChannels} setSearchResults={setSelectedChannels} />} />
+          <Route
+            path="/premiums"
+            element={
+              <PremiumPage
+                selectedPremiums={selectedPremiums}
+                setSelectedPremiums={setSelectedPremiums}
+              />
+            }
+          />
         </Routes>
         <Price
           fullPrice={80}
-          currentPrice={fullPrice}
+          currentPrice={currentPrice}
           amountThemePacks={selectedCategories?.length}
-          amounChannels={selectedChannels?.length}
+          amountChannels={selectedChannels?.length}
           amountPremiums={selectedPremiums?.length}
         />
         <Footer />
