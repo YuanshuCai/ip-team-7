@@ -7,9 +7,9 @@ import "./PremiumPage.scss";
 function PremiumPage({ selectedPremiums, setSelectedPremiums }) {
   return (
     <div className="premium-page">
-      <Heading text="premiums" />
+      <Heading text="Premiums" />
       <SearchBar />
-      <PremiumCardsList
+      <PremiumCardsList 
         selectedPremiums={selectedPremiums}
         setSelectedPremiums={setSelectedPremiums}
       />

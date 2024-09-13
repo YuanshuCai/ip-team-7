@@ -1,28 +1,32 @@
-import React, { useEffect, useState } from "react";
-import './PremiumCardsList.scss';
-import premiums from '../../assets/data/premiums.json'; 
+import React, { useEffect } from "react";
+import { useState } from "react";
+import "./PremiumCardsList.scss";
+import premiums from "../../assets/data/premiums.json";
 
 const PremiumCardsList = ({ selectedPremiums, setSelectedPremiums }) => {
   const [premiumPackages, setPremiumPackages] = useState([]);
 
   useEffect(() => {
+    const getPacks = () => {
+      setPremiumPackages(premiums);
+    };
 
-    setPremiumPackages(premiums);
+    getPacks();
   }, []);
 
-  const handleCardClick = (id) => {
-    setSelectedPremiums((prevSelected) =>
-      prevSelected.includes(id)
-        ? prevSelected.filter((premiumId) => premiumId !== id)
-        : [...prevSelected, id]
-    );
+  const handleCardClick = (index) => {
+    if (selectedPremiums.includes(index)) {
+      setSelectedPremiums(selectedPremiums.filter((card) => card !== index));
+    } else {
+      setSelectedPremiums([...selectedPremiums, index]);
+    }
   };
 
   return (
     <div className="premium-cards-list">
       {premiumPackages.map((premium) => (
         <div
-          key={premium.id} 
+          key={premium.id}
           className={`card-placeholder ${
             selectedPremiums.includes(premium.id) ? "selected" : ""
           }`}
@@ -33,7 +37,7 @@ const PremiumCardsList = ({ selectedPremiums, setSelectedPremiums }) => {
             <input
               type="checkbox"
               checked={selectedPremiums.includes(premium.id)}
-              readOnly
+              onChange={() => handleCardClick(premium.id)}
             />
           </div>
         </div>
