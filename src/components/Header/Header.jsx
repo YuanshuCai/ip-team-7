@@ -1,4 +1,6 @@
 import headerImg from '../../assets/images/header.png'
+import './Header.scss'
+
 function Header() {
     return (
         <header className='header'>
