@@ -5,7 +5,7 @@ const Price = ({
   fullPrice,
   currentPrice,
   amountThemePacks,
-  amounChannels,
+  amountChannels,
   amountPremiums,
 }) => {
   const [isScrolledToBottom, setIsScrolledToBottom] = useState(false);
@@ -33,10 +33,10 @@ const Price = ({
             <h2 className="checkout__heading">Total Price:</h2>
             <div className="checkout__prices">
               <p className="checkout__price checkout__price--current">
-                {currentPrice}$/MON
+                ${currentPrice}/MON
               </p>
               <p className="checkout__price checkout__price--full">
-                {fullPrice}$/MON
+                ${fullPrice}/MON
               </p>
             </div>
           </div>
@@ -47,16 +47,14 @@ const Price = ({
                 {amountThemePacks > 1 ? "packs" : "pack"}
               </p>
             )}
-            {amounChannels > 0 && (
+            {amountChannels > 0 && (
               <p>
-                Added {amounChannels}{" "}
-                {amounChannels > 1 ? "channels" : "channel"}
+                Added {amountChannels} {amountChannels > 1 ? "channels" : "channel"}
               </p>
             )}
             {amountPremiums > 0 && (
               <p>
-                Added {amountPremiums}{" "}
-                {amountPremiums > 1 ? "premiums" : "premium"}
+                Added {amountPremiums} {amountPremiums > 1 ? "premiums" : "premium"}
               </p>
             )}
           </div>

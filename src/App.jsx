@@ -15,7 +15,7 @@ function App() {
   const [selectedChannels, setSelectedChannels] = useState([]);
   const [selectedPremiums, setSelectedPremiums] = useState([]);
 
-  const categoryPrice = selectedCategories.reduce((total, categoryId) => {
+  const fullPrice = selectedCategories.reduce((total, categoryId) => {
     const category = categories.find((cat) => cat.category_id === categoryId);
     if (category) {
       const categoryPrice = category.channels.reduce((sum, channelId) => {
@@ -28,11 +28,11 @@ function App() {
   }, 0);
 
   const premiumPrice = selectedPremiums.reduce((total, premiumId) => {
-    const premium = premiums.find((prem) => prem.id === premiumId);
+    const premium = premiums.find((p) => p.id === premiumId);
     return total + (premium ? parseInt(premium.price) : 0);
   }, 0);
 
-  const fullPrice = categoryPrice + premiumPrice;
+  const currentPrice = fullPrice + premiumPrice;
 
   return (
     <>
@@ -49,7 +49,6 @@ function App() {
               />
             }
           />
-          {/* <Route path="/channel" element={<ChannelPage/>}/> */}
           <Route
             path="/premiums"
             element={
@@ -61,11 +60,11 @@ function App() {
           />
         </Routes>
         <Price
-          fullPrice={80}
-          currentPrice={fullPrice}
-          amountThemePacks={selectedCategories?.length}
-          amounChannels={selectedChannels?.length}
-          amountPremiums={selectedPremiums?.length}
+          fullPrice={80} 
+          currentPrice={currentPrice}
+          amountThemePacks={selectedCategories.length}
+          amountChannels={selectedChannels.length}
+          amountPremiums={selectedPremiums.length}
         />
         <Footer />
       </BrowserRouter>
