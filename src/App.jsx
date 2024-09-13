@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useEffect, useState} from "react";
 import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -26,7 +26,6 @@ function App() {
     }
     return total;
   }, 0);
-
   return (
     <>
       <BrowserRouter>
@@ -45,7 +44,7 @@ function App() {
           {/* <Route path="/channel" element={<ChannelPage/>}/> */}
           <Route path="/premiums" element={<PremiumPage />} />
           <Route path="/channel" element={<Navigate to="/channel/1" />} />
-          <Route path="/channel/:id" element={<ChannelPage />} />
+          <Route path="/channel/:id" element={<ChannelPage searchResults={selectedChannels} setSearchResults={setSelectedChannels} />} />
         </Routes>
         <Price
           fullPrice={80}
