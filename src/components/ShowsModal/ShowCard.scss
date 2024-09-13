@@ -1,0 +1,27 @@
+@import '../../styles/global.scss';
+
+.show-card-container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 10rem;
+  width: 100%;
+  background-color: $dark-grey;
+
+  * {box-sizing: border-box;}
+
+  .show-thumbnail
+  {
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+
+    img
+    {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
