@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import packsData from "./../../assets/data/packs.json";
-
+import "./PresetPacksDisplayButtons.scss";
 const PresetPacksDisplayButtons = () => {
   const [packs] = useState(packsData);
   const [selectedChannels, setSelectedChannels] = useState([]);
@@ -11,9 +11,10 @@ const PresetPacksDisplayButtons = () => {
 
   return (
     <div>
-      <div className="links">
+      <div className="packs">
         {packs.map((pack) => (
-          <a
+          <p
+            className="packs-button"
             key={pack.id}
             href="#"
             onClick={(e) => {
@@ -22,7 +23,7 @@ const PresetPacksDisplayButtons = () => {
             }}
           >
             {pack.title}
-          </a>
+          </p>
         ))}
       </div>
       {/* display selectedChannels for review purpose */}

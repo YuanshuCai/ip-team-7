@@ -1,0 +1,11 @@
+@import "../../styles/global.scss";
+.packs {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: $telus-black;
+  &-button {
+    padding: 0.25rem;
+    background-color: $price-border;
+  }
+}
