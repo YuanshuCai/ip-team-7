@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import showsData from "./../../assets/data/shows.json"; // Assuming the file is in the same directory
-
+import "./SearchBar.scss";
 const SearchBar = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
@@ -23,13 +23,17 @@ const SearchBar = () => {
 
   return (
     <div>
-      <input
-        type="text"
-        placeholder="Search for a show..."
-        value={searchQuery}
-        onChange={(e) => setSearchQuery(e.target.value)}
-        onKeyDown={handleKeyPress}
-      />
+      <div className="search">
+        <input
+          className="search-input"
+          type="text"
+          placeholder="Search for a show..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          onKeyDown={handleKeyPress}
+        />
+      </div>
+
       {/* This is just for test visibility */}
       {searchResults.length > 0 && (
         <div>

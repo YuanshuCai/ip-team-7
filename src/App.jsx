@@ -8,7 +8,6 @@ function App() {
     <>
       <BrowserRouter>
         <Header />
-
         <Routes>
           <Route path="/" element={<PackPage />} />
           {/* <Route path="/channel" element={<ChannelPage/>}/>
