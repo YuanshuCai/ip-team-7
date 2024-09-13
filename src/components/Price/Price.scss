@@ -6,10 +6,18 @@
   bottom: 0;
   width: 100%;
   background-color: $white;
+  z-index: 2;
+  transition: all 0.3s ease;
+
+  &--top {
+    bottom: auto;
+    top: 0;
+  }
 
   &__inner {
     padding: 2rem 2rem;
     border-top: 0.063rem solid $price-border;
+    border-bottom: 0.063rem solid $price-border;
     display: flex;
     justify-content: space-between;
     align-items: start;
