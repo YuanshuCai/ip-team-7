@@ -34,7 +34,7 @@ function App() {
   }, 0);
 
   const currentPrice = categoryPrice + premiumPrice;
-
+  
   return (
     <>
       <BrowserRouter>

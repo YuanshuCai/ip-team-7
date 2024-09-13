@@ -31,7 +31,7 @@ const NavBar = () => {
         <nav className="nav-bar">
           <div className="nav-bar__links">
             {routes.map((link) => (
-              <Link to={link.route} key={link.label} className={`nav-bar__link ${link.route === location.pathname ? 'nav-bar__link--active' : ''}`}>
+              <Link to={link.route} key={link.label} className={`nav-bar__link ${link.route === '/' ? link.route === location.pathname ? 'nav-bar__link--active' : '' : location.pathname.startsWith(link.route) ? 'nav-bar__link--active' : ''}`}>
                 {link.label}
               </Link>
             ))}
