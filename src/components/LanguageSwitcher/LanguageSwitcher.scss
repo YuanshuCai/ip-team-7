@@ -1,0 +1,47 @@
+@import "../../styles/global.scss";
+
+.switcher {
+  position: relative;
+  float: right;
+
+  &:hover &__content {
+    display: block;
+  }
+
+  &__btn {
+    cursor: pointer;
+    padding: 0.55rem 0.8rem;
+    font-size: 1.5rem;
+    border: 1px solid transparent;
+    display: flex;
+    background-color: transparent;
+  }
+  &__content {
+    display: none;
+    position: absolute;
+    background-color: $white;
+    min-width: 10rem;
+    box-shadow: 0px 0.5rem 1rem 0px rgba($telus-black, 0.2);
+    list-style-type: none;
+    right: 0;
+    margin: 0;
+  }
+  &__language-item {
+    &--selected {
+      background: rgba($telus-green, 0.5);
+      .switcher__language-link {
+        color: $white;
+      }
+    }
+  }
+  &__language-link {
+    color: $telus-black;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    display: block;
+
+    &:hover {
+      background-color: rgba($telus-green, 0.2);
+    }
+  }
+}
