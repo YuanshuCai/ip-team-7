@@ -3,13 +3,14 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import PackPage from "./pages/PackPage/PackPage";
 import NavBar from "./components/NavBar/NavBar";
-
+import PresetPacksDisplayButtons from "./components/PresetPacksDisplayButtons/PresetPacksDisplayButtons";
 function App() {
   return (
     <>
       <BrowserRouter>
         <Header />
         <NavBar />
+        <PresetPacksDisplayButtons />
         <Routes>
           <Route path="/" element={<PackPage />} />
           {/* <Route path="/channel" element={<ChannelPage/>}/>
