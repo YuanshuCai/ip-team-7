@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Price from "./components/Price/Price";
@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar/NavBar";
 import PremiumPage from "./pages/PremiumPage/PremiumPage";
 import categories from "./assets/data/channel_category.json";
 import channels from "./assets/data/channels.json";
+import ChannelPage from "./pages/ChannelPage/ChannelPage.jsx";
 
 function App() {
   const [selectedCategories, setSelectedCategories] = useState([]);
@@ -43,6 +44,8 @@ function App() {
           />
           {/* <Route path="/channel" element={<ChannelPage/>}/> */}
           <Route path="/premiums" element={<PremiumPage />} />
+          <Route path="/channel" element={<Navigate to="/channel/1" />} />
+          <Route path="/channel/:id" element={<ChannelPage />} />
         </Routes>
         <Price
           fullPrice={80}
