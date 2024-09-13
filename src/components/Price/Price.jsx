@@ -23,19 +23,19 @@ const Price = ({
             </div>
           </div>
           <div className="checkout__list">
-            {amountThemePacks && (
+            {amountThemePacks > 0 && (
               <p>
                 Added {amountThemePacks} theme{" "}
                 {amountThemePacks > 1 ? "packs" : "pack"}
               </p>
             )}
-            {amounChannels && (
+            {amounChannels > 0 && (
               <p>
                 Added {amounChannels}{" "}
                 {amounChannels > 1 ? "channels" : "channel"}
               </p>
             )}
-            {amountPremiums && (
+            {amountPremiums > 0 && (
               <p>
                 Added {amountPremiums}{" "}
                 {amountPremiums > 1 ? "premiums" : "premium"}
