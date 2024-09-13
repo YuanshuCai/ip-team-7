@@ -1,13 +1,15 @@
 import React, { useState, useEffect, useRef } from "react";
 import { RiArrowDownWideFill, RiArrowUpWideFill } from "react-icons/ri";
+import { useTranslation } from "react-i18next";
 import "./CategoriesDropDown.scss";
 
 const CategoriesDropDown = ({ categories, setCategoryId }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
   const dropdownRef = useRef(null);
+  const { t } = useTranslation();
   const updatedCategories = [
-    { category_id: null, category_name: "Choose the category" },
+    { category_id: null, category_name: t("dropdown_default") },
     ...categories,
   ];
 
@@ -34,7 +36,7 @@ const CategoriesDropDown = ({ categories, setCategoryId }) => {
   return (
     <div className="dropdown" ref={dropdownRef}>
       <button className="dropdown__btn" onClick={toggleDropdown}>
-        {selectedOption || "Choose the category"}
+        {selectedOption || t("dropdown_default")}
         <span>{isOpen ? <RiArrowUpWideFill /> : <RiArrowDownWideFill />}</span>
       </button>
       {isOpen && (
