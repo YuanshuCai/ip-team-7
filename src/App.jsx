@@ -1,8 +1,12 @@
+import NavBar from "./components/NavBar/NavBar";
+import PremiumCardsList from "./components/PremiumCardsList/PremiumCardsList";
+
 function App() {
 
   return (
     <>
-      Hello World
+      <NavBar />
+      <PremiumCardsList />
     </>
   );
 }
