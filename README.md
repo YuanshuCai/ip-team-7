@@ -1,5 +1,5 @@
 <div align="center">
-<img src="YOUR_IMAGE_LINK" alt="Project Logo or Screenshot">
+<img src="https://images.ctfassets.net/fikanzmkdlqn/24Npa1YcWK80UQw5IZQunH/1ea5fdb2d1ee84b212ce778e713ab9f4/TELUS_Logo.svg" alt="Project Logo or Screenshot"> Build-Your-Own+
 </div>
 
 ## 📖 Table of Contents
@@ -22,16 +22,16 @@ Welcome to Telus Build-Your-Own+, an innovative project developed by our six-mem
 
 ## :handshake: Team Profile
 
-**Team Name:** Big Hero 6/Streamline Squad/StreamWeavers/
+**Team Name:** StreamWeavers
 
 **Members:**
 
-- **[Yuanshu Cai](https://www.linkedin.com/in/yuanshucai/)** - Role (Developer)
-- **[Kristina Tripak](https://www.linkedin.com/in/kristina-tripak/)** - Role (UX Designer)
-- **[Stephen Mustapha](https://www.linkedin.com/in/stephen-mustapha-ng/)** - Role (Developer)
-- **[Sameer Singh](https://www.linkedin.com/in/sameersingh22/)** - Role (Developer)
-- **[Zanab Shah](https://www.linkedin.com/in/zanab-jafry-shah/)** - Role (Data Scientist)
-- **[Sophia Chan](https://www.linkedin.com/in/sophia-g-chan/)** - Role (Data Scientist)
+- **[Yuanshu Cai](https://www.linkedin.com/in/yuanshucai/)** - Developer
+- **[Kristina Tripak](https://www.linkedin.com/in/kristina-tripak/)** - UX Designer/Developer
+- **[Stephen Mustapha](https://www.linkedin.com/in/stephen-mustapha-ng/)** - Developer
+- **[Sameer Singh](https://www.linkedin.com/in/sameersingh22/)** - Developer
+- **[Zanab Shah](https://www.linkedin.com/in/zanab-jafry-shah/)** - Developer/Data Scientist
+- **[Sophia Chan](https://www.linkedin.com/in/sophia-g-chan/)** - Developer/Data Scientist
 
 ## :thinking: Problem Space
 
@@ -73,9 +73,7 @@ Present your solution in detail, highlighting how it addresses the problem space
 
 Provide links to a demo, prototype, or screenshots. Visuals help demonstrate how the solution works in action.
 
-<div align="center">
-<img src="DEMO_IMAGE_LINK" alt="Solution Demo Screenshot">
-</div>
+![demo_image](public/demo_image.png)
 
 ### Try It Out
 
@@ -91,11 +89,14 @@ Steps for users to install and run the project locally:
 
 ## :seedling: Key Learnings
 
-List any key takeaways or lessons learned during the development process. Mention teamwork, technical challenges, or new skills acquired.
+- **Communication is Key:** Clear and consistent communication kept everyone on the same page, preventing last-minute surprises and ensuring a smooth workflow.
+- **Git Pull Before Merge:** Always pull the latest changes before merging to avoid conflicts and keep the codebase clean—lesson learned the hard way!
+- **Stay Calm, We’re Solving the Same Problem:** Even when challenges arose, staying calm and remembering that we're all working toward the same goal helped us navigate tough situations.
+- **Teamwork & Responsibility:** Taking ownership, stepping up when needed, and supporting each other made a huge difference in overcoming obstacles and getting things done as a team.
 
 ## :books: References
 
-Provide any references, research articles, or documentation that informed the project. Include links to external resources or design prototypes.
+- https://www.nielsen.com/insights/2022/whats-old-is-new-again-bundles-could-help-consumers-cope-with-increasing-streaming-service-choice/
 
 ## :trophy: Accolades
 
