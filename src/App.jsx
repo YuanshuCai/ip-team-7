@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar/NavBar";
 import PremiumPage from "./pages/PremiumPage/PremiumPage";
 import categories from "./assets/data/channel_category.json";
 import channels from "./assets/data/channels.json";
+import premiums from "./assets/data/premiums.json";
 
 function App() {
   const [selectedCategories, setSelectedCategories] = useState([]);
@@ -26,6 +27,13 @@ function App() {
     return total;
   }, 0);
 
+  const premiumPrice = selectedPremiums.reduce((total, premiumId) => {
+    const premium = premiums.find((p) => p.id === premiumId);
+    return total + (premium ? parseInt(premium.price) : 0);
+  }, 0);
+
+  const currentPrice = fullPrice + premiumPrice;
+
   return (
     <>
       <BrowserRouter>
@@ -41,15 +49,22 @@ function App() {
               />
             }
           />
-          {/* <Route path="/channel" element={<ChannelPage/>}/> */}
-          <Route path="/premiums" element={<PremiumPage />} />
+          <Route
+            path="/premiums"
+            element={
+              <PremiumPage
+                selectedPremiums={selectedPremiums}
+                setSelectedPremiums={setSelectedPremiums}
+              />
+            }
+          />
         </Routes>
         <Price
-          fullPrice={80}
-          currentPrice={fullPrice}
-          amountThemePacks={selectedCategories?.length}
-          amounChannels={selectedChannels?.length}
-          amountPremiums={selectedPremiums?.length}
+          fullPrice={80} 
+          currentPrice={currentPrice}
+          amountThemePacks={selectedCategories.length}
+          amountChannels={selectedChannels.length}
+          amountPremiums={selectedPremiums.length}
         />
         <Footer />
       </BrowserRouter>
