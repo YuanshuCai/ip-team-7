@@ -38,7 +38,7 @@ const ChannelsPage = ({ searchResults, setSearchResults }) => {
                 <SearchBar setResults={setSearchResults} />
             </div>
             <ChannelCardsList openModal={openModal} setCurrentId={setCurrentChannelId} setCurrentName={setCurrentChannelName} channels={currentChannels} />
-            <ShowsModal isOpen={modalOpen} onClose={openModal} channelId={currentChannelId} channelName={currentChannelName} />
+            <ShowsModal isOpen={modalOpen} onClose={closeModal} channelId={currentChannelId} channelName={currentChannelName} />
         </div>
     );
 };
