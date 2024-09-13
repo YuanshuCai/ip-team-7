@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import packsData from "./../../assets/data/packs.json";
 import "./PresetPacksDisplayButtons.scss";
 
-const PresetPacksDisplayButtons = () => {
+const PresetPacksDisplayButtons = ({ setSelectedChannels }) => {
   const [packs] = useState(packsData);
-  const [selectedChannels, setSelectedChannels] = useState([]);
   const [selectedPackId, setSelectedPackId] = useState(null);
 
   const handleLinkClick = (channels, id) => {
@@ -45,10 +44,10 @@ const PresetPacksDisplayButtons = () => {
         </p>
       </div>
       {/* Display selectedChannels for review purpose */}
-      <div className="channels">
+      {/* <div className="channels">
         {selectedChannels.length > 0 &&
           `Channels: ${selectedChannels.join(", ")}`}
-      </div>
+      </div> */}
     </div>
   );
 };
