@@ -59,8 +59,6 @@ Welcome to Telus Build-Your-Own+, an innovative project developed by our six-mem
 
 ## :mag: Technology Stack
 
-### 🔍 Technology Stack
-
 Our project leverages modern web development technologies to deliver a seamless and dynamic user experience. The following tools and technologies were used:
 
 - **JavaScript**:
