@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <NavBar />
-        <PresetPacksDisplayButtons />
+
         <Routes>
           <Route path="/" element={<PackPage />} />
           {/* <Route path="/channel" element={<ChannelPage/>}/>
