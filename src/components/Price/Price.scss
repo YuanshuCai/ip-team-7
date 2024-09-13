@@ -1,19 +1,25 @@
 @import "../../styles/global.scss";
 
 .checkout {
-  padding: 2rem 2rem;
-  border-top: 0.063rem solid $price-border;
-  border-bottom: 0.063rem solid $price-border;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: $white;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-  flex-direction: column;
-  gap: 2rem;
+  &__inner {
+    padding: 2rem 2rem;
+    border-top: 0.063rem solid $price-border;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    gap: 2rem;
 
-  @include tablet {
-    flex-direction: row;
-    padding: 2rem 5rem;
+    @include tablet {
+      flex-direction: row;
+      padding: 2rem 5rem;
+    }
   }
 
   &__heading,
