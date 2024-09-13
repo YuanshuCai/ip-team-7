@@ -41,7 +41,7 @@ const CategoryCardItem = ({
           </p>
         </div>
       </div>
-      <div className="category-card__price">{price}/mon</div>
+      <div className="category-card__price">{price}$/mon</div>
     </div>
   );
 };
