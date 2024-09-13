@@ -24,6 +24,8 @@
 
   &__heading {
     font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.3rem;
   }
 
   &__title {
@@ -60,14 +62,19 @@
   }
 
   &__button {
+    cursor: pointer;
     padding: 1rem 3rem;
-    border: 0;
+    border: 1px solid $telus-green;
     background-color: $telus-green;
     color: $white;
     font-weight: 600;
     width: 100%;
     @include tablet {
       width: auto;
+    }
+    &:hover {
+      background-color: $white;
+      color: $telus-green;
     }
   }
 
