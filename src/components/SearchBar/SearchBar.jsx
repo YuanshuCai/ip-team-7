@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React, {useEffect, useState} from "react";
 import showsData from "./../../assets/data/shows.json"; // Assuming the file is in the same directory
 import "./SearchBar.scss";
-const SearchBar = () => {
+const SearchBar = ( { setResults } ) => {
   const [searchQuery, setSearchQuery] = useState("");
-  const [searchResults, setSearchResults] = useState([]);
 
   // Handler for the Enter key press
   const handleKeyPress = (e) => {
@@ -18,7 +17,7 @@ const SearchBar = () => {
       show.title.toLowerCase().includes(searchQuery.toLowerCase())
     );
 
-    setSearchResults(filteredResults);
+    setResults(filteredResults);
   };
 
   return (
@@ -33,24 +32,6 @@ const SearchBar = () => {
           onKeyDown={handleKeyPress}
         />
       </div>
-
-      {/* This is just for test visibility */}
-      {searchResults.length > 0 && (
-        <div>
-          <h3>Search Results:</h3>
-          <ul>
-            {searchResults.map((show) => (
-              <li key={show.id}>
-                <div>
-                  <img src={show.image} alt={show.title} />
-                  <h4>{show.title}</h4>
-                  <p>Channel: {show.channel.join(", ")}</p>
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
     </div>
   );
 };

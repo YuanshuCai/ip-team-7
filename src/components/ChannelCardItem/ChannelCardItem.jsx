@@ -1,9 +1,11 @@
 import React from 'react';
 import './ChannelCardItem.scss';
 
-const ChannelCardItem = ({ title, image }) => {
+const ChannelCardItem = ({ openModal, id, setCurrentId, setCurrentName, title, image }) => {
   const handleViewDetailsClick = () => {
-    alert('View Details link clicked');
+    setCurrentId(id);
+      setCurrentName(title);
+      openModal();
   };
 
   return (
