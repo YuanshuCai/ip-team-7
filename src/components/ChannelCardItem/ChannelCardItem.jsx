@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ChannelCardItem.scss';
+import check from '../../assets/icons/check.svg';
 
 const ChannelCardItem = ({ title, image }) => {
+  const [isChecked, setIsChecked] = useState(false);
+
+  const handleCheckboxClick = () => {
+    setIsChecked(!isChecked);
+  };
+
   const handleViewDetailsClick = () => {
     alert('View Details link clicked');
   };
@@ -9,7 +16,9 @@ const ChannelCardItem = ({ title, image }) => {
   return (
     <div className="channel-card">
       <div className="channel-card__header">
-        <div className="channel-card__checkbox"></div>
+        <div className="channel-card__checkbox" onClick={handleCheckboxClick}>
+          {isChecked && <img src={check} alt="Checked" className="channel-card__check-icon" />}
+        </div>
         <h2 className="channel-card__title">{title}</h2>
       </div>
       <div className="channel-card__image-container">

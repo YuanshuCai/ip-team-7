@@ -33,6 +33,17 @@ $price-background-color: #f7f7f8;
     background-color: $card-background-color;
     margin-right: 8px;
     border-radius: 2px;
+    position: relative;
+    cursor: pointer; /* Change cursor to pointer for better UX */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__check-icon {
+    width: 12px;
+    height: auto;
+    position: absolute;
   }
 
   &__title {
@@ -48,6 +59,7 @@ $price-background-color: #f7f7f8;
     flex-wrap: wrap;
     margin-bottom: 16px;
   }
+
   &__icon {
     width: 3rem;
     height: 3rem;
