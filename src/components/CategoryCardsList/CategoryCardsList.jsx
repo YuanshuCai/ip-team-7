@@ -45,15 +45,23 @@ const CategoryCardList = ({
   }, [selectedChannels, setSelectedCategories]);
 
   const handleCheckboxChange = (categoryId) => {
-    if (selectedChannels.length === 0) {
-      setSelectedCategories((prevSelected) => {
-        if (prevSelected.includes(categoryId)) {
-          return prevSelected.filter((id) => id !== categoryId);
-        } else {
-          return [...prevSelected, categoryId];
-        }
-      });
-    }
+    const relatedChannels =
+      cardData.find((category) => category.id === categoryId)?.channelIds || [];
+    const isCategoryRelatedToSelectedChannels = relatedChannels.some(
+      (channelId) => selectedChannels.includes(channelId)
+    );
+
+    setSelectedCategories((prevSelected) => {
+      if (isCategoryRelatedToSelectedChannels) {
+        return prevSelected;
+      }
+
+      if (prevSelected.includes(categoryId)) {
+        return prevSelected.filter((id) => id !== categoryId);
+      } else {
+        return [...prevSelected, categoryId];
+      }
+    });
   };
 
   return (
