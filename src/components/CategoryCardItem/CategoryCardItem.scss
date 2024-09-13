@@ -1,3 +1,5 @@
+@import "../../styles/global.scss";
+
 $card-border-color: #ddd;
 $card-background-color: #fff;
 $checkbox-border-color: #ccc;
@@ -11,7 +13,6 @@ $price-background-color: #f7f7f8;
   background-color: $card-background-color;
   display: flex;
   flex-direction: column;
-  max-width: 200px;
 
   &__content {
     padding: 16px;
@@ -43,11 +44,12 @@ $price-background-color: #f7f7f8;
   &__icons {
     display: flex;
     flex-direction: row;
-    justify-content: baseline;
     gap: 2rem;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0 auto;
+    @include tablet {
+      margin: 0 auto;
+    }
   }
   &__icons-channels {
     display: flex;

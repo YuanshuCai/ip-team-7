@@ -4,9 +4,6 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 16px;
-  padding: 16px;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .category-card-list__row {
@@ -15,10 +12,10 @@
   grid-template-columns: 1fr;
   gap: 1rem;
   @include tablet {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1.52rem;
   }
   @include desktop {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
