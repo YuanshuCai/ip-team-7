@@ -1,0 +1,84 @@
+@import "../../styles/global.scss";
+
+.checkout {
+  padding: 2rem 2rem;
+  border-top: 0.063rem solid $price-border;
+  border-bottom: 0.063rem solid $price-border;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  gap: 2rem;
+
+  @include tablet {
+    flex-direction: row;
+    padding: 2rem 5rem;
+  }
+
+  &__heading,
+  &__price,
+  &__list p {
+    margin: 0;
+  }
+
+  &__heading {
+    font-weight: 400;
+  }
+
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-bottom: 1rem;
+
+    @include tablet {
+      justify-content: baseline;
+      align-items: center;
+    }
+  }
+
+  &__prices {
+    display: flex;
+    flex-direction: column;
+
+    @include tablet {
+      align-items: center;
+      flex-direction: row;
+      gap: 1.5rem;
+    }
+  }
+
+  &__price {
+    &--current {
+      text-decoration: underline;
+    }
+    &--full {
+      text-decoration: line-through;
+      color: $gray;
+    }
+  }
+
+  &__button {
+    padding: 1rem 3rem;
+    border: 0;
+    background-color: $telus-green;
+    color: $white;
+    font-weight: 600;
+    width: 100%;
+    @include tablet {
+      width: auto;
+    }
+  }
+
+  &__list {
+    color: $gray;
+  }
+
+  &__content {
+    width: 100%;
+    @include tablet {
+      width: auto;
+    }
+  }
+}
